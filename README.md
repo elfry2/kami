@@ -30,4 +30,4 @@ Plugins are managed using [vim-plug](https://github.com/junegunn/vim-plug) and r
 - Toggle Neo-tree -> ```tr``` in normal mode
 
 ## Troubleshooting
-- **Lualine arrows not showing, only rectangles; missing icons, etc.** The script has installed Hack Nerd Font Mono on your system. Configure your terminal to use it or other nerd fonts of your choice.
+- **Lualine arrows not showing, only rectangles; missing icons, etc.** The script has installed Hack Nerd Font Mono on your system. Configure your terminal to use it or another nerd font of your choice.
