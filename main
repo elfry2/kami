@@ -1,0 +1,45 @@
+#!/bin/bash
+
+# Install Hack Nerd font.
+wget -O hacknerd.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Hack.zip
+sudo mkdir -p /usr/share/fonts/truetype/hacknerd
+sudo unzip -o hacknerd.zip -d /usr/share/fonts/truetype/hacknerd
+sudo fc-cache -fv
+rm -rv hacknerd.zip
+
+# Attempt to install curl.
+sudo apt install --assume-yes curl
+sudo pacman -Syu curl
+
+# Install the latest neovim appimage.
+nvim_path="/usr/local/bin/nvim.appimage"
+sudo curl -Lo "${nvim_path}" https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+sudo chmod +x "${nvim_path}"
+set -u
+sudo update-alternatives --install /usr/bin/nvim nvim "${nvim_path}" 110
+
+# Install the plugin manager.
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+nvim_config_directory_path="$HOME/.config/nvim"
+
+# Backup old config directory.
+mv -v "${nvim_config_directory_path}" "${nvim_config_directory_path}.backup" 
+
+# Copy init.vim to its proper location.
+mkdir -p "${nvim_config_directory_path}"
+cp -v init.vim "${nvim_config_directory_path}"/init.vim
+
+# Copy the plugin list file to its proper location.
+cp -v plugs.vim "${nvim_config_directory_path}"/plugs.vim
+
+# Install plugins.
+nvim +PlugInstall +qall
+
+# Append the plugin configuration file to init.vim .
+cat plugin-config.vim >> "${nvim_config_directory_path}/init.vim"
+# Append the built-in feature configuration file to init.vim .
+cat builtin-config.vim >> "${nvim_config_directory_path}/init.vim"
+
+echo "newcode installed."
