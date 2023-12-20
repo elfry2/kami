@@ -1,7 +1,7 @@
 # newcode
 The perfect code editor--not. It's a script to install my Neovim configuration on Linux.
 
-My vim configuration can be found on https://github.com/elfry2/code.
+My vim configuration can be found [here](https://github.com/elfry2/code).
 
 ![A screenshot of the latest version](screenshots/Screenshot%20from%202023-12-21%2001-57-17.png "A screenshot of the latest version")
 
