@@ -1,11 +1,13 @@
 #!/bin/bash
 
 # Install Hack Nerd font.
-wget -O hacknerd.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Hack.zip
-sudo mkdir -p /usr/share/fonts/truetype/hacknerd
-sudo unzip -o hacknerd.zip -d /usr/share/fonts/truetype/hacknerd
-sudo fc-cache -fv
-rm -rv hacknerd.zip
+if [ ! "$1" == '--no-download' ]; then
+	wget -O hacknerd.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Hack.zip
+	sudo mkdir -p /usr/share/fonts/truetype/hacknerd
+	sudo unzip -o hacknerd.zip -d /usr/share/fonts/truetype/hacknerd
+	sudo fc-cache -fv
+	rm -rv hacknerd.zip
+fi
 
 # Attempt to install curl.
 sudo apt install --assume-yes curl
@@ -13,14 +15,18 @@ sudo pacman -Syu curl
 
 # Install the latest neovim appimage.
 nvim_path="/usr/local/bin/nvim.appimage"
-sudo curl -Lo "${nvim_path}" https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+if [ ! "$1" == '--no-download' ]; then
+	sudo curl -Lo "${nvim_path}" https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+fi
 sudo chmod +x "${nvim_path}"
-set -u
+#set -u
 sudo update-alternatives --install /usr/bin/nvim nvim "${nvim_path}" 110
 
 # Install the plugin manager.
-sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+if [ ! "$1" == '--no-download' ]; then
+	sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+fi
 
 nvim_config_directory_path="$HOME/.config/nvim"
 
