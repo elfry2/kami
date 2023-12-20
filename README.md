@@ -29,3 +29,5 @@ Plugins are managed using [vim-plug](https://github.com/junegunn/vim-plug) and r
 - ```<ESC>``` -> ```jk``` in insert and visual mode
 - Toggle Neo-tree -> ```tr``` in normal mode
 
+## Troubleshooting
+- *Lualine arrows not showing, only rectangles; missing icons, etc.** The script has installed Hack Nerd Font Mono on your system. Configure your terminal to use it.
