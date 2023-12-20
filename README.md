@@ -10,7 +10,7 @@ Be aware that installing newcode overwrites your current ```~/.config/nvim/init.
 ```bash
 git clone https://github.com/elfry2/newcode.git && cd newcode && ./main
 ```
-The installation may take some time due to downloads, so you may want to skip them later after running them once by appending ```--no-download`` ```--no-download````.
+The installation may take some time due to downloads, so you may want to skip them later after running them once by appending ```--no-download```.
 
 ## Usage
 Execute
