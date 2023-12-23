@@ -25,7 +25,7 @@ To learn how to use plugins, read [this StackOverflow answer](https://stackoverf
 ## Configuration
 Plugins are managed using [vim-plug](https://github.com/junegunn/vim-plug). Their registration and configuration are done in ```~/.config/nvim/init.vim```. 
 
-## Mappings 
+## Remaps 
 - ```<ESC>``` -> ```jk``` in insert and visual mode
 - Toggle Neo-tree -> ```tr``` in normal mode. Other Neo-tree mappings can be read on [its documentation](https://github.com/nvim-neo-tree/neo-tree.nvim/blob/main/doc/neo-tree.txt)
 - Expand snippets -> ```Ctrl``` + ```j```
