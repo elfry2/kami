@@ -37,15 +37,7 @@ mv -v "${nvim_config_directory_path}" "${nvim_config_directory_path}.backup"
 mkdir -p "${nvim_config_directory_path}"
 cp -v init.vim "${nvim_config_directory_path}"/init.vim
 
-# Copy the plugin list file to its proper location.
-cp -v plugs.vim "${nvim_config_directory_path}"/plugs.vim
-
 # Install plugins.
 nvim +PlugInstall +qall
-
-# Append the plugin configuration file to init.vim .
-cat plugin-config.vim >> "${nvim_config_directory_path}/init.vim"
-# Append the built-in feature configuration file to init.vim .
-cat builtin-config.vim >> "${nvim_config_directory_path}/init.vim"
 
 echo "newcode installed."
