@@ -151,7 +151,8 @@ lua require("ibl").setup()
 " Found on https://dotfyle.com/plugins/kylechui/nvim-surround.
 lua require("nvim-surround").setup({})
 
-" Load tabline.nvim.
+" Load bufferline.nvim.
 "
-" Found on https://dotfyle.com/plugins/kdheepak/tabline.nvim.
-lua require("tabline").setup({})
+" Found on https://dotfyle.com/plugins/akinsho/bufferline.nvim.
+set termguicolors
+lua require("bufferline").setup({})
