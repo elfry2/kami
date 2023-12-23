@@ -23,7 +23,7 @@ To learn vim basics, read [this article](https://www.linuxfoundation.org/blog/bl
 To learn how to use plugins, read [this StackOverflow answer](https://stackoverflow.com/a/55846872).
 
 ## Configuration
-Plugins are to be managed using [vim-plug](https://github.com/junegunn/vim-plug) and registered in ```~/.config/nvim/newcode/plugs.vim```. Configuration for plugins are to be placed in ```~.config/nvim/newcode/plugin-config.vim```. Configuration for built-in features are to be placed in ```~/.config/nvim/newcode/builtin-config.vim```.
+Plugins are to be managed using [vim-plug](https://github.com/junegunn/vim-plug) and registered in ```~/.config/nvim/plugs.vim```. Configuration for plugins are to be placed in ```~.config/nvim/plugin-config.vim```. Configuration for built-in features are to be placed in ```~/.config/nvim/builtin-config.vim```.
 
 ## Remaps 
 - ```<ESC>``` -> ```jk``` in insert and visual mode
