@@ -58,6 +58,9 @@ Plug 'nvim-tree/nvim-web-devicons'
 Plug 'windwp/nvim-autopairs'
 Plug 'MunifTanjim/nui.nvim'
 Plug 'nvim-neo-tree/neo-tree.nvim', { 'branch': 'v3.x' }
+Plug 'numToStr/Comment.nvim'
+Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'captbaritone/better-indent-support-for-php-with-html'
 
 call plug#end()
 " You can revert the settings after the call like so:
@@ -207,6 +210,16 @@ xmap        S   <Plug>(vsnip-cut-text)
 let g:vsnip_filetypes = {}
 let g:vsnip_filetypes.javascriptreact = ['javascript']
 let g:vsnip_filetypes.typescriptreact = ['typescript']
+
+" Load Comment.nvim.
+" 
+" Found on https://dotfyle.com/plugins/numToStr/Comment.nvim.
+lua require('Comment').setup()
+
+" Load indent-blankline.nvim.
+"
+" Found on https://dotfyle.com/plugins/lukas-reineke/indent-blankline.nvim.
+lua require("ibl").setup()
 
 " -----------------------------------------------------------------------------
 " Configuration that makes use of only built-in features goes below. Remember
