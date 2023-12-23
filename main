@@ -1,17 +1,17 @@
 #!/bin/bash
 
-# Install Hack Nerd font.
-if [ ! "$1" == '--no-download' ]; then
-	wget -O hacknerd.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Hack.zip
-	sudo mkdir -p /usr/share/fonts/truetype/hacknerd
-	sudo unzip -o hacknerd.zip -d /usr/share/fonts/truetype/hacknerd
-	sudo fc-cache -fv
-	rm -rv hacknerd.zip
-fi
-
 # Attempt to install curl.
 sudo apt install --assume-yes curl
 sudo pacman -Syu curl
+
+# Install Hack Nerd font.
+if [ ! "$1" == '--no-download' ]; then
+	curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Hack.zip
+	sudo mkdir -p /usr/share/fonts/truetype/hacknerd
+	sudo unzip -o Hack.zip -d /usr/share/fonts/truetype/hacknerd
+	sudo fc-cache -fv
+	rm -v Hack.zip
+fi
 
 # Install the latest neovim appimage.
 nvim_path="/usr/local/bin/nvim.appimage"
