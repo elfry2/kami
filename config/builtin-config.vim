@@ -1,5 +1,3 @@
-
-" -----------------------------------------------------------------------------
 " Configuration that makes use of only built-in features goes below. Remember
 " to keep it minimal. It conflicts very easily. Before adding anything, check
 " whether there's already a plugin to do the task.

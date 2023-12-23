@@ -39,12 +39,13 @@ mv -v "${nvim_config_directory_path}" "${nvim_config_directory_path}.backup"
 mkdir -p "${nvim_config_directory_path}"
 cp -v 1.init.vim "${nvim_config_directory_path}"/init.vim
 
+# Copy newcode config directory to its proper location.
+cp -rv config "${nvim_config_directory_path}"/newcode
+
 # Install plugins.
 nvim +PlugInstall +qall
 
-# Append the remaining part(s) of init.vim to init.vim.
+# Append the remaining part(s) of init.vim to the init.vim in the proper location.
 cat 2.init.vim >> "${nvim_config_directory_path}"/init.vim
-cat 3.init.vim >> "${nvim_config_directory_path}"/init.vim
-cat 4.init.vim >> "${nvim_config_directory_path}"/init.vim
 
 echo "newcode installed."

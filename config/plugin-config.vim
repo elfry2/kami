@@ -1,5 +1,3 @@
-
-" -----------------------------------------------------------------------------
 " Configuration that make use of plugins goes below. Remember to keep it
 " minimal. It conflicts very easily.
 
