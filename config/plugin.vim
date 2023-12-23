@@ -150,3 +150,8 @@ lua require("ibl").setup()
 " 
 " Found on https://dotfyle.com/plugins/kylechui/nvim-surround.
 lua require("nvim-surround").setup({})
+
+" Load tabline.nvim.
+"
+" Found on https://dotfyle.com/plugins/kdheepak/tabline.nvim.
+lua require("tabline").setup({})
