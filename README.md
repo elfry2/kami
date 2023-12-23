@@ -27,7 +27,7 @@ Plugins are managed using [vim-plug](https://github.com/junegunn/vim-plug). Thei
 
 ## Remaps 
 - ```<ESC>``` -> ```jk``` in insert and visual mode
-- Toggle Neo-tree -> ```tr``` in normal mode. Other Neo-tree mappings can be read on [its documentation](https://github.com/nvim-neo-tree/neo-tree.nvim/blob/main/doc/neo-tree.txt).
+- Toggle Neo-tree -> ```tr``` in normal mode. Other Neo-tree mappings can be read on [its documentation](https://github.com/nvim-neo-tree/neo-tree.nvim/blob/main/doc/neo-tree.txt)
 - Expand snippets -> ```Ctrl``` + ```j```
 
 ## Troubleshooting
