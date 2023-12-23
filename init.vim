@@ -61,6 +61,7 @@ Plug 'nvim-neo-tree/neo-tree.nvim', { 'branch': 'v3.x' }
 Plug 'numToStr/Comment.nvim'
 Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
+Plug 'kylechui/nvim-surround'
 
 call plug#end()
 " You can revert the settings after the call like so:
@@ -220,6 +221,11 @@ lua require('Comment').setup()
 "
 " Found on https://dotfyle.com/plugins/lukas-reineke/indent-blankline.nvim.
 lua require("ibl").setup()
+
+" Load nvim-surround.
+" 
+" Found on https://dotfyle.com/plugins/kylechui/nvim-surround.
+lua require("nvim-surround").setup({})
 
 " -----------------------------------------------------------------------------
 " Configuration that makes use of only built-in features goes below. Remember
