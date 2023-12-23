@@ -16,6 +16,7 @@ sudo pacman -Syu curl
 # Install the latest neovim appimage.
 nvim_path="/usr/local/bin/nvim.appimage"
 if [ ! "$1" == '--no-download' ]; then
+	sudo rm -v "${nvim_path}"
 	sudo curl -Lo "${nvim_path}" https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 fi
 sudo chmod +x "${nvim_path}"
@@ -31,6 +32,7 @@ fi
 nvim_config_directory_path="$HOME/.config/nvim"
 
 # Backup old config directory.
+sudo rm -rv "${nvim_config_directory_path}.backup" 
 mv -v "${nvim_config_directory_path}" "${nvim_config_directory_path}.backup" 
 
 # Copy init.vim to its proper location.
