@@ -27,8 +27,8 @@ Plugins are to be managed using [vim-plug](https://github.com/junegunn/vim-plug)
 
 ## Unconventional Mappings 
 - ```<ESC>``` -> ```jk``` in insert and visual mode
-- Toggle Neo-tree -> ```tr``` in normal mode. Other Neo-tree mappings can be read on [its documentation](https://github.com/nvim-neo-tree/neo-tree.nvim/blob/main/doc/neo-tree.txt)
-- Expand snippets -> ```Ctrl``` + ```j``` in insert mode
+- ```:Neotree``` (toggle Neo-tree) -> ```tr``` in normal mode. Other Neo-tree mappings can be read on [its documentation](https://github.com/nvim-neo-tree/neo-tree.nvim/blob/main/doc/neo-tree.txt)
+- ```<CR>``` (expand snippets) -> ```;;``` in insert mode
 
 ## Troubleshooting
 - **Lualine arrows not showing, only rectangles; missing icons, etc.** The script has installed Hack Nerd Font Mono on your system. Configure your terminal to use it or another nerd font of your choice.
