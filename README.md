@@ -35,4 +35,4 @@ Configuration for built-in features are to be placed in ```~/.config/nvim/builti
 - ```<CR>``` (expand snippets) -> ```;'``` in insert mode
 
 ## Troubleshooting
-- **Lualine arrows not showing, only rectangles; missing icons, etc.** The script has installed Hack Nerd Font Mono on your system. Configure your terminal to use it or another nerd font of your choice.
+- **Lualine arrows not showing, only rectangles; missing icons, etc.** The script has installed Hack Nerd Font Mono on your system. Configure your terminal to use it or another nerd font of your choice
