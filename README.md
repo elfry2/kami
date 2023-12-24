@@ -33,6 +33,7 @@ Configuration for built-in features are to be placed in ```~/.config/nvim/builti
 - ```<ESC>``` -> ```jk``` in insert and visual mode
 - ```:Neotree``` (toggle Neo-tree) -> ```tr``` in normal mode. Other Neo-tree mappings can be read on [its documentation](https://github.com/nvim-neo-tree/neo-tree.nvim/blob/main/doc/neo-tree.txt)
 - ```<CR>``` (expand snippets) -> ```;'``` in insert mode
+- Toggle comment -> ```gcc``` in normal mode; ```gc``` in visual mode
 
 ## Troubleshooting
 - **Lualine arrows not showing, only rectangles; missing icons, etc.** The script has installed Hack Nerd Font Mono on your system. Configure your terminal to use it or another nerd font of your choice
