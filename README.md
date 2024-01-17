@@ -8,7 +8,9 @@ My vim configuration can be found [here](https://github.com/elfry2/code).
 ## Installation
 Be aware that installing newcode overwrites your current ```~/.config/nvim/init.vim```. To install newcode, execute 
 ```bash
-git clone https://github.com/elfry2/newcode.git && cd newcode && ./main
+git clone https://github.com/elfry2/newcode.git
+cd newcode
+./main
 ```
 The installation may take some time due to downloads, so you may want to skip them later after successfully running them once by appending ```--no-download```.
 
@@ -25,7 +27,7 @@ To learn how to use plugins, read [this StackOverflow answer](https://stackoverf
 ## Configuration
 Plugins are to be managed using [vim-plug](https://github.com/junegunn/vim-plug) and registered in ```~/.config/nvim/plugs.vim```.
 
-Configuration for plugins are to be placed in ```~.config/nvim/plugin-config.vim```.
+Configuration for plugins are to be placed in ```~/.config/nvim/plugin-config.vim```.
 
 Configuration for built-in features are to be placed in ```~/.config/nvim/builtin-config.vim```.
 
