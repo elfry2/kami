@@ -6,7 +6,8 @@ My vim configuration can be found [here](https://github.com/elfry2/code).
 ![A screenshot of the latest version](screenshots/Screenshot%20from%202023-12-24%2005-18-27.png "A screenshot of the latest version")
 
 ## Installation
-Be aware that installing newcode overwrites your current ```~/.config/nvim/init.vim```. To install newcode, execute 
+Be aware that installing newcode overwrites your current ```~/.config/nvim/init.vim```.
+To install newcode, execute 
 ```bash
 git clone https://github.com/elfry2/newcode.git
 cd newcode
