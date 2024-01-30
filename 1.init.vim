@@ -45,7 +45,7 @@ call plug#begin()
 "   syntax off            " Disable syntax highlighting
 
 " Plugins are to be registered in the file sourced in the following line.
-source ~/.config/nvim/plugs.vim
+source ~/.config/nvim/config/plugs.vim
 
 call plug#end()
 " You can revert the settings after the call like so:

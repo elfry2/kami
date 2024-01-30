@@ -1,8 +1,7 @@
-
-" Configuration for plugins are to be placed in the file sourced in the
-" following line.
-source ~/.config/nvim/plugin-config.vim
-
-" Configuration for built-in features are to be placed in the file sourced in
-" the following line.
-source ~/.config/nvim/builtin-config.vim
+" 
+" Source every *.vim file in the configuration directory.
+"
+" Found on https://stackoverflow.com/a/4500936.
+for f in split(glob('~/.config/nvim/config/*.vim'), '\n')
+    exe 'source' f
+endfor

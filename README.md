@@ -6,7 +6,7 @@ My vim configuration can be found [here](https://github.com/elfry2/code).
 ![A screenshot of the latest version](screenshots/Screenshot%20from%202023-12-24%2005-18-27.png "A screenshot of the latest version")
 
 ## Installation
-Be aware that installing newcode overwrites your current ```~/.config/nvim/init.vim```.
+Be aware that installing newcode overwrites your current ```~/.config/nvim```.
 
 To install newcode, execute 
 ```bash
@@ -27,16 +27,14 @@ To learn vim basics, read [this article](https://www.linuxfoundation.org/blog/bl
 To learn how to use plugins, read [this StackOverflow answer](https://stackoverflow.com/a/55846872).
 
 ## Configuration
-Plugins are to be managed using [vim-plug](https://github.com/junegunn/vim-plug) and registered in ```~/.config/nvim/plugs.vim```.
+Plugins are to be managed using [vim-plug](https://github.com/junegunn/vim-plug) and registered in ```~/.config/nvim/config/plugs.vim```.
 
-Configuration for plugins are to be placed in ```~/.config/nvim/plugin-config.vim```.
-
-Configuration for built-in features are to be placed in ```~/.config/nvim/builtin-config.vim```.
+Further configuration is to be placed in its own new *.vim file in ```~/.config/nvim/config/```. Any *.vim file placed in this directory gets sourced automatically.
 
 ## Unconventional Mappings 
 - ```<ESC>``` -> ```jk``` in insert and visual mode
 - ```:Neotree``` (toggle Neo-tree) -> ```tr``` in normal mode. Other Neo-tree mappings can be read on [its documentation](https://github.com/nvim-neo-tree/neo-tree.nvim/blob/main/doc/neo-tree.txt)
-- ```<CR>``` (expand snippets) -> ```;'``` in insert mode
+- Expand snippet -> ```;'``` in insert mode
 - Toggle comment -> ```gcc``` in normal mode; ```gc``` in visual mode
 
 ## Troubleshooting

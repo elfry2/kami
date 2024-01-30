@@ -1,3 +1,4 @@
+" 
 " Plugins are to be registered here and managed using vim-plug. Remember to
 " install only plugins you'll actually use. They conflict very easily.
 "
