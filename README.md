@@ -4,12 +4,12 @@ The perfect code editor--not. It's a script to install the Neovim configuration 
 ![A screenshot of the latest version](screenshots/Screenshot%20from%202024-02-20%2018-55-28.png "A screenshot of the latest version")
 
 ## Installation
-Be aware that installing newcode overwrites your current ```~/.config/nvim```.
+Be aware that installing lines overwrites your current ```~/.config/nvim```.
 
-To install newcode, execute 
+To install lines, execute 
 ```bash
-git clone https://github.com/elfry2/newcode.git
-cd newcode
+git clone https://github.com/elfry2/lines.git
+cd lines
 ./main
 ```
 The installation may take some time due to downloads, so you may want to skip them later after successfully running them once by appending ```--no-download```.
@@ -31,7 +31,7 @@ Further configuration is to be placed in its own new *.vim file in ```~/.config/
 
 ## Unconventional Mappings 
 - ```<ESC>``` -> ```jk``` in insert and visual mode
-- ```:Neotree``` (toggle Neo-tree) -> ```tr``` in normal mode. Other Neo-tree mappings can be read on [its documentation](https://github.com/nvim-neo-tree/neo-tree.nvim/blob/main/doc/neo-tree.txt)
+- ```:NvimTreeToggle``` (toggle nvim-tree) -> ```tr``` in normal mode. Other nvim-tree mappings can be shown by pressing ```g?``` on its window.
 - Expand snippet -> ```;'``` in insert mode
 - Toggle comment -> ```gcc``` in normal mode; ```gc``` in visual mode
 
