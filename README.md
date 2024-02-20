@@ -1,5 +1,5 @@
 # lines
-The perfect text editor--not. It's a script to install the Neovim configuration that I mainly use for web development on Linux.
+The perfect text editor--not. It's a script to install the Neovim configuration I mainly use for web development on Linux.
 
 ![A screenshot of the latest version](screenshots/Screenshot%20from%202024-02-21%2002-29-14.png "A screenshot of the latest version")
 
