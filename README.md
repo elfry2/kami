@@ -34,7 +34,7 @@ Further configuration is to be placed in its own new *.vim file in ```~/.config/
 - Toggle directory tree (```:NvimTreeToggle```) -> ```tr``` in normal mode. Other nvim-tree mappings can be shown by pressing ```g?``` on its window
 - Expand snippet -> ```;'``` in insert mode
 - Toggle comment -> ```gcc``` in normal mode; ```gc``` in visual mode
-- Open terminal (```:ToggleTerm direction=tab```) -> ```tm``` in normal mode
+- Toggle terminal (```:ToggleTerm direction=tab```) -> ```tm``` in normal mode
 
 ## Troubleshooting
 - **Lualine arrows not showing, only rectangles; missing icons; etc.** The script has installed Hack Nerd Font Mono on your system. Configure your terminal to use it or another nerd font of your choice
