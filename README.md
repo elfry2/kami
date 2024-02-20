@@ -3,7 +3,7 @@ The perfect code editor--not. It's a script to install the Neovim configuration 
 
 My vim configuration can be found [here](https://github.com/elfry2/code).
 
-![A screenshot of the latest version](screenshots/Screenshot%20from%202024-02-20%2018-51-33.png "A screenshot of the latest version")
+![A screenshot of the latest version](screenshots/Screenshot%20from%202024-02-20%2018-55-28.png "A screenshot of the latest version")
 
 ## Installation
 Be aware that installing newcode overwrites your current ```~/.config/nvim```.
