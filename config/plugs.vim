@@ -22,7 +22,7 @@ Plug 'nvim-lualine/lualine.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'windwp/nvim-autopairs'
 Plug 'MunifTanjim/nui.nvim'
-Plug 'nvim-neo-tree/neo-tree.nvim', { 'branch': 'v3.x' }
+Plug 'nvim-tree/nvim-tree.lua'
 Plug 'numToStr/Comment.nvim'
 Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'captbaritone/better-indent-support-for-php-with-html'

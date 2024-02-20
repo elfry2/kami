@@ -8,12 +8,10 @@ local bufferline = require('bufferline')
 bufferline.setup {
 	options = {
 		offsets = {
-			filetype = "neo-tree",
-			text = function()
-			return vim.fn.getcwd()
-			end,
-			highlight = "Directory",
-			text_align = "center"
+			{
+				filetype = "NvimTree",
+				highlight = "Directory",
+			}
 		}
 	}
 }
