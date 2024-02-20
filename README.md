@@ -31,7 +31,7 @@ Further configuration is to be placed in its own new *.vim file in ```~/.config/
 
 ## Unconventional Mappings 
 - ```<ESC>``` -> ```jk``` in insert and visual mode
-- ```:NvimTreeToggle``` (toggle nvim-tree) -> ```tr``` in normal mode. Other nvim-tree mappings can be shown by pressing ```g?``` on its window.
+- ```:NvimTreeToggle``` (toggle nvim-tree) -> ```tr``` in normal mode. Other nvim-tree mappings can be shown by pressing ```g?``` on its window
 - Expand snippet -> ```;'``` in insert mode
 - Toggle comment -> ```gcc``` in normal mode; ```gc``` in visual mode
 
