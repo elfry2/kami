@@ -48,4 +48,4 @@ nvim +PlugInstall +qall
 # Append the remaining part(s) of init.vim to the init.vim in the proper location.
 cat 2.init.vim >> "${nvim_config_directory_path}"/init.vim
 
-echo "newcode installed."
+echo "lines installed."
