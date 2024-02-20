@@ -36,4 +36,4 @@ Further configuration is to be placed in its own new *.vim file in ```~/.config/
 - Toggle comment -> ```gcc``` in normal mode; ```gc``` in visual mode
 
 ## Troubleshooting
-- **Lualine arrows not showing, only rectangles; missing icons, etc.** The script has installed Hack Nerd Font Mono on your system. Configure your terminal to use it or another nerd font of your choice
+- **Lualine arrows not showing, only rectangles; missing icons; etc.** The script has installed Hack Nerd Font Mono on your system. Configure your terminal to use it or another nerd font of your choice
