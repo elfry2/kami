@@ -1,4 +1,4 @@
-# newcode
+# lines
 The perfect code editor--not. It's a script to install the Neovim configuration that I mainly use for web development on Linux.
 
 My vim configuration can be found [here](https://github.com/elfry2/code).
