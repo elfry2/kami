@@ -22,7 +22,7 @@ nvim
 
 Before using lines, you are expected to be familiar with vim basic usage, which you can learn pretty quickly from [this article](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim).
 
-You don't need to know how to do configuration and how to install plugins to start using lines, but you can learn it from [this StackOverflow answer](https://stackoverflow.com/a/55846872).
+You don't need to know how to install plugins or how to do configuration to start using lines, but you can learn it from [this StackOverflow answer](https://stackoverflow.com/a/55846872).
 
 ## Configuration
 Plugins are to be managed using [vim-plug](https://github.com/junegunn/vim-plug) and registered in ```~/.config/nvim/config/plugs.vim```.
