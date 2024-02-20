@@ -20,9 +20,9 @@ Execute
 nvim
 ```
 
-To learn vim basics, read [this article](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim).
+Before using lines, you are expected to be familiar with vim basic usage, which you can learn from [this article](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim).
 
-To learn how to use plugins, read [this StackOverflow answer](https://stackoverflow.com/a/55846872).
+You don't need to know how to use plugins to start using lines, but you can learn it from [this StackOverflow answer](https://stackoverflow.com/a/55846872).
 
 ## Configuration
 Plugins are to be managed using [vim-plug](https://github.com/junegunn/vim-plug) and registered in ```~/.config/nvim/config/plugs.vim```.
