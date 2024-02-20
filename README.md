@@ -1,7 +1,7 @@
 # lines
 The perfect text editor--not. It's a script to install the Neovim configuration I mainly use for web development on Linux.
 
-![A screenshot of the latest version](screenshots/Screenshot%20from%202024-02-21%2002-29-14.png "A screenshot of the latest version")
+![A screenshot of the latest version](screenshots/Screenshot%20from%202024-02-21%2003-42-52.png "A screenshot of the latest version")
 
 ## Installation
 Be aware that installing lines overwrites your current ```~/.config/nvim```.
@@ -31,9 +31,10 @@ Further configuration is to be placed in its own new *.vim file in ```~/.config/
 
 ## Unconventional Mappings 
 - ```<ESC>``` -> ```jk``` in insert and visual mode
-- ```:NvimTreeToggle``` (toggle nvim-tree) -> ```tr``` in normal mode. Other nvim-tree mappings can be shown by pressing ```g?``` on its window
+- Toggle directory tree (```:NvimTreeToggle```) -> ```tr``` in normal mode. Other nvim-tree mappings can be shown by pressing ```g?``` on its window
 - Expand snippet -> ```;'``` in insert mode
 - Toggle comment -> ```gcc``` in normal mode; ```gc``` in visual mode
+- Toggle terminal (```ToggleTerm direction=tab```) -> ```tm``` in normal mode
 
 ## Troubleshooting
 - **Lualine arrows not showing, only rectangles; missing icons; etc.** The script has installed Hack Nerd Font Mono on your system. Configure your terminal to use it or another nerd font of your choice

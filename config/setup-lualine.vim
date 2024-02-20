@@ -6,7 +6,7 @@
 lua << END
 require('lualine').setup({
 	options = {
-			disabled_filetypes = {'NvimTree'}
+			disabled_filetypes = {'NvimTree', 'toggleterm'}
 		}
 })
 END
