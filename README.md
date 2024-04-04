@@ -1,7 +1,7 @@
 # lines
 The perfect text editor--not. It's a script to install the Neovim configuration I mainly use for web development on Linux.
 
-![A screenshot of the latest version](screenshots/Screenshot%20from%202024-02-21%2003-42-52.png "A screenshot of the latest version")
+![A screenshot of the latest version](screenshots/Screenshot%20from%202024-04-04%2021-34-02.png "A screenshot of the latest version")
 
 ## Installation
 Be aware that installing lines overwrites your current ```~/.config/nvim```.
@@ -29,12 +29,15 @@ Plugins are to be managed using [vim-plug](https://github.com/junegunn/vim-plug)
 
 Further configuration is to be placed in its own new *.vim file in ```~/.config/nvim/config/```. Any *.vim file placed in this directory gets sourced automatically.
 
-## Unconventional Mappings 
+## Useful Mappings 
 - ```<ESC>``` -> ```jk``` in insert and visual mode
 - Toggle file explorer (```:NvimTreeToggle```) -> ```tr``` in normal mode. Other nvim-tree mappings can be shown by pressing ```g?``` on its window
 - Expand snippet -> ```;'``` in insert mode
 - Toggle comment -> ```gcc``` in normal mode; ```gc``` in visual mode
 - Toggle terminal (```:ToggleTerm direction=tab```) -> ```te``` in normal mode
+- Switch between windows (bars) -> ```Ctrl```+```ww``` in normal mode
+- Switch to the next buffer (tab) -> ```Ctrl```+```Tab``` in normal mode
+- Switch to the previous buffer (tab) -> ```Ctrl```+ ```Shift```+```Tab``` in normal mode
 
 ## Troubleshooting
-- **Lualine arrows not showing, only rectangles; missing icons; etc.** The script has installed Hack Nerd Font Mono on your system. Configure your terminal to use it or another nerd font of your choice
+- **Lualine arrows not showing, only rectangles; missing icons; etc.** The script has installed Agave Nerd Font Mono on your system. Configure your terminal to use it or another nerd font of your choice
