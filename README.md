@@ -29,7 +29,7 @@ Plugins are to be managed using [vim-plug](https://github.com/junegunn/vim-plug)
 
 Further configuration is to be placed in its own new *.vim file in ```~/.config/nvim/config/```. Any *.vim file placed in this directory gets sourced automatically.
 
-## Useful Mappings 
+## Unconventional and Useful Mappings 
 - ```<ESC>``` -> ```jk``` in insert and visual mode
 - Toggle file explorer (```:NvimTreeToggle```) -> ```tr``` in normal mode. Other nvim-tree mappings can be shown by pressing ```g?``` on its window
 - Expand snippet -> ```;'``` in insert mode
