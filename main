@@ -4,13 +4,13 @@
 sudo apt install --assume-yes curl
 sudo pacman -Syu curl
 
-# Install Agave Nerd font.
+# Install RobotoMono Nerd font.
 if [ ! "$1" == '--no-download' ]; then
-	curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.0/Agave.zip
-	sudo mkdir -p /usr/share/fonts/truetype/agave-nerd
-	sudo unzip -o Agave.zip -d /usr/share/fonts/truetype/agave-nerd
+	curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.0/RobotoMono.zip
+	sudo mkdir -p /usr/share/fonts/truetype/roboto-mono-nerd
+	sudo unzip -o RobotoMono.zip -d /usr/share/fonts/truetype/roboto-mono-nerd
 	sudo fc-cache -fv
-	rm -v Agave.zip
+	rm -v RobotoMono.zip
 fi
 
 # Install the latest neovim appimage.

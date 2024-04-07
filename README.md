@@ -1,7 +1,7 @@
 # lines
 The perfect text editor--not. It's a script to install the Neovim configuration I mainly use for web development on Linux.
 
-![A screenshot of the latest version](screenshots/Screenshot%20from%202024-04-04%2021-34-02.png "A screenshot of the latest version")
+![A screenshot of the latest version](screenshots/Screenshot%20from%202024-04-07%2014-43-27.png "A screenshot of the latest version")
 
 ## Installation
 Be aware that installing lines overwrites your current ```~/.config/nvim```.
@@ -40,4 +40,4 @@ Further configuration is to be placed in its own new *.vim file in ```~/.config/
 - Switch to the previous buffer (tab) -> ```Ctrl```+ ```Shift```+```Tab``` in normal mode
 
 ## Troubleshooting
-- **Lualine arrows not showing, only rectangles; missing icons; etc.** The script has installed Agave Nerd Font Mono on your system. Configure your terminal to use it or another nerd font of your choice
+- **Lualine arrows not showing, only rectangles; missing icons; etc.** The script has installed RobotoMono Nerd Font on your system. Configure your terminal to use it or another nerd font of your choice
