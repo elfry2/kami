@@ -1,7 +1,7 @@
 # lines
 The perfect text editor--not. It's a script to install the Neovim configuration I mainly use for web development on Linux.
 
-![A screenshot of the latest version](screenshots/Screenshot%20from%202024-04-07%2014-43-27.png "A screenshot of the latest version")
+![A screenshot of the latest version](screenshots/Screenshot%20from%202024-04-07%2020-49-45.png "A screenshot of the latest version")
 
 ## Installation
 Be aware that installing lines overwrites your current ```~/.config/nvim```.
