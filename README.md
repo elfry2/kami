@@ -19,4 +19,4 @@ Execute
 nvim
 ```
 
-Before using kami, you are expected to be familiar with vim basic usage, which you can learn pretty quickly from [this article](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim). It might be useful to follow along with [this video](https://www.youtube.com/watch?v=N93cTbtLCIM) which walks you through the conveniences of LazyVim, and to read the [LazyVim documentation](https://www.lazyvim.org/).
+Before using kami, you are expected to be familiar with vim basic usage, which can be learnt pretty quickly from [this article](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim). It might be useful to follow along with [this video](https://www.youtube.com/watch?v=N93cTbtLCIM) which walks you through the conveniences of LazyVim, and to read the [LazyVim documentation](https://www.lazyvim.org/).
