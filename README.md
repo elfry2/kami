@@ -1,15 +1,15 @@
 # kami
-The perfect text editor--not. It's the Neovim dotfile I use for web development.
+The perfect text editor--not. It's the Neovim dotfile I use mainly for web development.
 
 ## Installation
 1. Install [Neovim](https://neovim.io/)
-2. Install [LazyVim](https://www.lazyvim.org/)
+2. Install [LazyVim](https://www.lazyvim.org/), but don't start it yet!
 3. Merge the ```lua``` directory of this repository into your Neovim ```lua``` directory. On Linux you can Execute
-```
+```bash
 git clone https://github.com/elfry2/kami
-rsync -avh --progress kami/lua $HOME/.config/nvim/lua
-rm -rvf kami
+rsync -avh --progress kami/lua/ $HOME/.config/nvim/lua/
 ```
+4. Start kami (execute ```nvim```)
 
 ## Usage
 Execute
