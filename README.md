@@ -1,5 +1,6 @@
 # kami
 The perfect text editor--not. It's the Neovim dotfile I use mainly for web development.
+
 ![image](https://github.com/elfry2/kami/assets/47256917/f7ef5d13-26ff-46f0-a3dc-aa5bb2c5d16d)
 
 ## Installation
