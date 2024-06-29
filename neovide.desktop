@@ -13,7 +13,7 @@ Name=Neovide
 Comment=A simple, no-nonsense, cross-platform graphical user interface for Neovim
 
 # The executable of the application, possibly with arguments.
-Exec=/opt/Neovide/neovide
+Exec=/opt/Neovide/neovide --neovim-bin=/opt/nvim-linux64/bin/nvim %F
 
 # The name of the icon that will be used to display this entry
 Icon=org.gnome.TextEditor

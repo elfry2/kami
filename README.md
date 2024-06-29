@@ -13,7 +13,7 @@ Do not run the script (or any script) unless you understand what it does and you
 
 There's not yet an installer for other systems, but the procedure is easily reproducible.
 ## Usage
-Launch Neovide as you would launch any other app, or execute on terminal
+Launch Neovide the same way you would launch any other app, or execute on terminal
 ```bash
 nvim
 ```

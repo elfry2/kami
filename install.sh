@@ -39,7 +39,7 @@ echo "LazyVim installed."
 
 # Install kami.
 echo "Installing kami..."
-rsync -avh --progress lua/ $HOME/.config/nvim/lua/
+rsync -avh --progress config/nvim/lua/ $HOME/.config/nvim/lua/
 echo "kami installed."
 
 # Clean up.
