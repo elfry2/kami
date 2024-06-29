@@ -4,7 +4,7 @@ The perfect text editor--not. It's the Neovim configuration I use mainly for web
 ![image](https://github.com/elfry2/kami/assets/47256917/f7ef5d13-26ff-46f0-a3dc-aa5bb2c5d16d)
 
 ## Installation
-1. Install [Neovim](https://neovim.io/)
+1. Install [Neovim](https://neovim.io/) (and a GUI of it. [Neovide](https://neovide.dev/)?)
 2. Install [LazyVim](https://www.lazyvim.org/), but don't start it yet!
 3. Merge the ```lua``` directory of this repository into your Neovim ```lua``` directory. On Linux you can execute
 ```bash
