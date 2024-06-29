@@ -4,15 +4,12 @@ The perfect text editor--not. It's the Neovim configuration I use mainly for web
 ![image](https://github.com/elfry2/kami/assets/47256917/f7ef5d13-26ff-46f0-a3dc-aa5bb2c5d16d)
 
 ## Installation
-1. Install [Neovim](https://neovim.io/) (and a GUI of it. [Neovide](https://neovide.dev/)?)
-2. Install [LazyVim](https://www.lazyvim.org/), but don't start it yet!
-3. Merge the ```lua``` directory of this repository into your Neovim ```lua``` directory. On Linux you can execute
+On most Linux systems you can simply run ```install.sh``` by executing
 ```bash
-git clone https://github.com/elfry2/kami
-cd kami
-rsync -avh --progress lua/ $HOME/.config/nvim/lua/
+./install.sh
 ```
-4. Start kami (execute ```nvim```)
+
+Do not run the script (or any script) unless you understand what it does and you are sure that it does what you want it to do. Be sure also not to skip reading the outputs, as they contain information as to what you may do next.
 
 ## Usage
 Execute
