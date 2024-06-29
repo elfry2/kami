@@ -35,7 +35,7 @@ echo "Configuration directories backed up."
 echo "Installing LazyVim..."
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 rm -rf ~/.config/nvim/.git
-echo "LazyVim installed. Old configuration directories were moved."
+echo "LazyVim installed."
 
 # Install kami.
 echo "Installing kami..."
