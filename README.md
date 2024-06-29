@@ -1,7 +1,8 @@
 # kami
 The perfect text editor--not. It's the Neovim configuration I use mainly for web development.
 
-![image](https://github.com/elfry2/kami/assets/47256917/f7ef5d13-26ff-46f0-a3dc-aa5bb2c5d16d)
+![image](https://github.com/elfry2/kami/assets/47256917/dc8445cf-601d-442a-9c27-f3098b857b2a)
+
 
 ## Installation
 On most Linux systems you can simply run ```install.sh``` by executing
