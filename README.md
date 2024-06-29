@@ -10,7 +10,7 @@ On most Linux systems you can simply run ```install.sh``` by executing
 ./install.sh
 ```
 
-Do not run the script (or any script) unless you understand what it does and you are sure that it does what you want it to do. Be sure also not to skip reading the outputs, as they contain information as to what you may do next.
+Do not run the script (or any script) unless you understand what it does and you are sure that it does what you want it to do. Be sure also not to skip reading the outputs, as they contain information as to what you might have to do next.
 
 There's not yet an installer for other systems, but the procedure is easily reproducible.
 ## Usage
