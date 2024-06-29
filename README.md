@@ -18,4 +18,4 @@ Launch Neovide the same way you would launch any other app, or execute on termin
 nvim
 ```
 
-Before using kami, you are expected to be familiar with vim basic usage, which can be learned pretty quickly from [this article](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim). It might be useful to follow along with [this video](https://www.youtube.com/watch?v=N93cTbtLCIM), which walks you through the conveniences of LazyVim; and to read the [LazyVim documentation](https://www.lazyvim.org/).
+Before using kami, you are expected to be familiar with vim basic usage, which can be learned pretty quickly from [this article](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim). It might be useful to also follow along with [this video](https://www.youtube.com/watch?v=N93cTbtLCIM), which walks you through the conveniences of LazyVim; and to read the [LazyVim documentation](https://www.lazyvim.org/).
