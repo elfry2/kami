@@ -9,7 +9,8 @@ The perfect text editor--not. It's the Neovim configuration I use mainly for web
 3. Merge the ```lua``` directory of this repository into your Neovim ```lua``` directory. On Linux you can execute
 ```bash
 git clone https://github.com/elfry2/kami
-rsync -avh --progress kami/lua/ $HOME/.config/nvim/lua/
+cd kami
+rsync -avh --progress lua/ $HOME/.config/nvim/lua/
 ```
 4. Start kami (execute ```nvim```)
 
