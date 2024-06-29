@@ -6,7 +6,7 @@ The perfect text editor--not. It's the Neovim configuration I use mainly for web
 ## Installation
 1. Install [Neovim](https://neovim.io/)
 2. Install [LazyVim](https://www.lazyvim.org/), but don't start it yet!
-3. Merge the ```lua``` directory of this repository into your Neovim ```lua``` directory. On Linux you can Execute
+3. Merge the ```lua``` directory of this repository into your Neovim ```lua``` directory. On Linux you can execute
 ```bash
 git clone https://github.com/elfry2/kami
 rsync -avh --progress kami/lua/ $HOME/.config/nvim/lua/
