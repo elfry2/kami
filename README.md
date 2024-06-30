@@ -20,12 +20,13 @@ Do not run the script (or any script) unless you understand what it does and you
 
 There's not yet an installer for other systems, but the procedure is easily reproducible.
 ## Usage
-Launch Neovide the same way you would launch any other app, or execute on terminal
+Before using kami, you are expected to be familiar with vim basic usage, which can be learned pretty quickly from [this article](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim). It might be useful to also follow along with [this video](https://www.youtube.com/watch?v=N93cTbtLCIM), which walks you through the conveniences of LazyVim.
+
+To use it, launch Neovide the same way you would launch any other app, or execute on terminal
 ```bash
 nvim
 ```
 
-Before using kami, you are expected to be familiar with vim basic usage, which can be learned pretty quickly from [this article](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim). It might be useful to also follow along with [this video](https://www.youtube.com/watch?v=N93cTbtLCIM), which walks you through the conveniences of LazyVim.
 
 ## Configuration
 Consult the [LazyVim documentation](https://www.lazyvim.org/).
