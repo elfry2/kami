@@ -35,4 +35,4 @@ nvim
 
 
 ## Configuration
-Consult the [LazyVim documentation](https://www.lazyvim.org/).
+Consult the [LazyVim documentation](https://www.lazyvim.org/configuration).
