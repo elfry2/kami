@@ -8,7 +8,7 @@ All the greatness if of [LazyVim](https://www.lazyvim.org/), but
 1. ```jk``` is set as an alternative to ```<Esc>```
 2. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme
 3. [vim-jsx-improve](https://github.com/neoclide/vim-jsx-improve) is installed to support JSX files better
-4. [tree-sitter-blade] is installed to support Blade files better
+4. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) is installed to support Blade files better
 
 ## Installation
 On most Linux systems you can simply run ```install.sh``` by executing
