@@ -1,7 +1,6 @@
--- Add and load kanagawa.nvim.
+-- Add and load rebelot/kanagawa.nvim.
 --
--- Found on https://www.reddit.com/r/neovim/comments/13d5qbb
--- and modified afterwards.
+-- Found on or inspired by something found on https://www.reddit.com/r/neovim/comments/13d5qbb.
 
 return {
 	"rebelot/kanagawa.nvim",
