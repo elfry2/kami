@@ -4,7 +4,7 @@ The perfect text editor--not. It's the Neovim configuration I use mainly for web
 ![image](https://github.com/elfry2/kami/assets/47256917/dc8445cf-601d-442a-9c27-f3098b857b2a)
 
 ## Features
-All the greatness if of [LazyVim](https://www.lazyvim.org/), but
+All the greatness of [LazyVim](https://www.lazyvim.org/), but
 1. ```jk``` is set as an alternative to ```<Esc>```
 2. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme
 3. [vim-jsx-improve](https://github.com/neoclide/vim-jsx-improve) is installed to support JSX files better
