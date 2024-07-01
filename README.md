@@ -26,7 +26,7 @@ export PATH="$PATH:/opt/nvim-linux64/bin"
 ```
 
 ## Usage
-Before using kami, you are expected to be familiar with vim basic usage, which can be learned pretty quickly from [this article](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim). It might be useful to also follow along with [this video](https://www.youtube.com/watch?v=N93cTbtLCIM), which walks you through the conveniences of LazyVim.
+Before using kami, you are expected to be familiar with Neovim basic usage as well as plugin management via [lazy.nvim](https://lazy.folke.io/). It might be useful to also follow along with [this video](https://www.youtube.com/watch?v=N93cTbtLCIM), which walks you through the conveniences of LazyVim.
 
 To use it, launch Neovide the same way you would launch any other app, or execute on terminal
 ```bash
