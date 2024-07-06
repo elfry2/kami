@@ -6,6 +6,7 @@ The perfect text editor--not. It's the Neovim configuration I use mainly for web
 ## Features
 All the greatness of [LazyVim](https://www.lazyvim.org/), but
 1. ```jk``` is set as an alternative to ```<Esc>```
+2. The confirmation key for for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) is set to be ```;'``` instead of ```<CR>```
 2. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme
 3. [vim-jsx-improve](https://github.com/neoclide/vim-jsx-improve) is installed to support JSX files better
 4. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) is installed to support Blade files better
@@ -20,13 +21,8 @@ Do not run the script (or any script) unless you understand what it does and you
 
 There's not yet an installer for other systems, but the procedure is easily reproducible.
 
-After installing, append the following line to your shell config (~/.bashrc, ~/.zshrc, ...)
-```bash
-export PATH="$PATH:/opt/nvim-linux64/bin"
-```
-
 ## Usage
-Before using kami, you are expected to be familiar with vim basic usage, which can be learned pretty quickly from [this article](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim). It might be useful to also follow along with [this video](https://www.youtube.com/watch?v=N93cTbtLCIM), which walks you through the conveniences of LazyVim.
+Before using kami, you are expected to be familiar with Neovim basic usage as well as basic plugin management via [lazy.nvim](https://lazy.folke.io/). It might be useful to also follow along with [this video](https://www.youtube.com/watch?v=N93cTbtLCIM), which walks you through the conveniences of LazyVim.
 
 To use it, launch Neovide the same way you would launch any other app, or execute on terminal
 ```bash

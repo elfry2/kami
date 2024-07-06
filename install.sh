@@ -4,17 +4,18 @@
 echo "Installing RobotoMono Nerd Font..."
 curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/RobotoMono.zip
 sudo mkdir -v /usr/share/fonts/truetype/roboto-mono-nerd
-sudo unzip RobotoMono.zip -v -d /usr/share/fonts/truetype/roboto-mono-nerd
+sudo unzip RobotoMono.zip -d /usr/share/fonts/truetype/roboto-mono-nerd
 sudo fc-cache -fv
-echo "Roboto Mono Nerd Font installed. To display icons, configure your terminal to use a nerd font."
+echo -e "\033[1mRoboto Mono Nerd Font installed. To display icons, configure your terminal to use a nerd font.\033[0m"
 
-# Install Neovim binary.
+# Install Neovim Nightly binary.
 echo "Installing Neovim..."
-curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+#curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
+curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz
 sudo rm -rvf /opt/nvim
 sudo tar -C /opt -xzvf nvim-linux64.tar.gz
-echo "Neovim installed. If you haven't already, append the following line to your shell config (~/.bashrc, ~/.zshrc, ...) for convenience:"
-echo "export PATH=\"\$PATH:/opt/nvim-linux64/bin\""
+echo -e "\033[1mNeovim installed. If you haven't already, append the following line to your shell config (~/.bashrc, ~/.zshrc, ...) for convenience:"
+echo -e "export PATH=\"\$PATH:/opt/nvim-linux64/bin\"\033[0m"
 
 # Install Neovide binary.
 echo "Installing Neovide..."
@@ -23,7 +24,7 @@ sudo rm -rvf /opt/Neovide
 sudo mkdir -v /opt/Neovide
 sudo tar -C /opt/Neovide -xzvf neovide-linux-x86_64.tar.gz
 sudo cp -v neovide.desktop /usr/share/applications
-echo "Neovide installed. You can now launch it like you would launch any other desktop application."
+echo -e "\033[1mNeovide installed. You can now launch it like you would launch any other desktop application.\033[0m"
 
 # Install LazyVim.
 echo "Backing up current Neovim configuration directories..."
