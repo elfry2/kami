@@ -17,9 +17,15 @@ if vim.g.neovide then
   -- - https://www.reddit.com/r/neovim/comments/13ia46q/make_window_title_nvim_pathtofiletxt/
   -- - https://stackoverflow.com/a/69669289
   -- - https://stackoverflow.com/questions/1405583/concatenation-of-strings-in-lua
+  function isEmpty(string)
+    return string == nil or string == ""
+  end
+
+  path = vim.api.nvim_buf_get_name(0)
+
   vim.opt.title = true
   vim.opt.titlelen = 0 -- do not shorten title
-  vim.opt.titlestring = vim.api.nvim_buf_get_name(0) .. " - Neovide"
+  vim.opt.titlestring = isEmpty(path) and "Neovide" or path .. " - Neovide"
 end
 
 -- Mark column 80.

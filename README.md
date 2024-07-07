@@ -6,9 +6,10 @@ The perfect text editor--not. It's the Neovim configuration I use mainly for web
 ## Features
 All the greatness of [LazyVim](https://www.lazyvim.org/), but
 1. ```jk``` is set as an alternative to ```<Esc>``` so all fingers can stay home more often and have quality time together
-2. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late night sessions
-3. [vim-jsx-improve](https://github.com/neoclide/vim-jsx-improve) is installed to support JSX files better
-4. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) is installed to support Blade files better
+2. ```;'``` instead of ```<CR>``` is set as the confirmation key for [nvim-cmp](https://github,com/hrsh7th/nvim-cmp) to prevent the user from losing his mind
+3. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late night sessions
+4. [vim-jsx-improve](https://github.com/neoclide/vim-jsx-improve) is installed to support JSX files better
+5. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) is installed to support Blade files better
 
 ## Installation
 On most Linux systems you can simply run ```install.sh``` by executing
