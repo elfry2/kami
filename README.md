@@ -4,7 +4,7 @@ The perfect text editor--not. It's the Neovim configuration I use mainly for web
 ![image](https://github.com/elfry2/kami/assets/47256917/3bf4fe67-b6f8-4881-ac4c-3f1c68388492)
 
 ## Features
-All the greatness of [LazyVim](https://www.lazyvim.org/), but
+All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 1. ```jk``` is set as an alternative to ```<Esc>``` so all fingers can stay home more often and have quality time together
 2. ```;'``` instead of ```<CR>``` is set as the confirmation key for [nvim-cmp](https://github,com/hrsh7th/nvim-cmp) to prevent the user from losing his mind
 3. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late night sessions
@@ -19,7 +19,7 @@ On most Linux systems you can simply run ```install.sh``` by executing
 
 Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Be sure also not to skip reading the bolded outputs, since they contain information as to what you might have to do next.
 
-There's not yet an installer for other systems, but the procedure is easily reproducible.
+There's not yet an installer for other systems, but the procedure is easy to reproduce.
 
 ## Usage
 Before using kami, you are expected to be familiar with Neovim basic usage as well as basic plugin management via [lazy.nvim](https://lazy.folke.io/). It might be useful to also follow along with [this video](https://www.youtube.com/watch?v=N93cTbtLCIM), which walks you through the conveniences of LazyVim.
