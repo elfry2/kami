@@ -12,9 +12,14 @@ All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 5. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) is installed to support Blade files better
 
 ## Installation
-On most Linux systems you can simply run ```install.sh``` by executing
+On most Linux systems, in the root directory of this repo, simply execute:
 ```bash
-./install.sh
+./installers/linux.sh
+```
+
+On Windows' PowerShell, execute:
+```powershell
+.\installers\windows.ps1
 ```
 
 Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Be sure also not to skip reading the bolded outputs, since they contain information as to what you might have to do next.
@@ -28,7 +33,6 @@ To use it, launch Neovide the same way you would launch any other app, or execut
 ```bash
 nvim
 ```
-
 
 ## Configuration
 Consult the [LazyVim documentation](https://www.lazyvim.org/configuration).

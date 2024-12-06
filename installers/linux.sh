@@ -28,10 +28,10 @@ echo -e "\033[1mNeovide installed. You can now launch it like you would launch a
 
 # Install LazyVim.
 echo "Backing up current Neovim configuration directories..."
-mv -v ~/.config/nvim ~/.config/nvim.backup.$(date +%s)
-mv -v ~/.local/share/nvim ~/.local/share/nvim.backup.$(date +%s)
-mv -v ~/.local/state/nvim ~/.local/state/nvim.backup.$(date +%s)
-mv -v ~/.cache/nvim ~/.cache/nvim.backup.$(date +%s)
+mv -v ~/.config/nvim ~/.config/nvim-backup-$(date +%s)
+mv -v ~/.local/share/nvim ~/.local/share/nvim-backup-$(date +%s)
+mv -v ~/.local/state/nvim ~/.local/state/nvim-backup-$(date +%s)
+mv -v ~/.cache/nvim ~/.cache/nvim-backup-$(date +%s)
 echo "Configuration directories backed up."
 echo "Installing LazyVim..."
 git clone https://github.com/LazyVim/starter ~/.config/nvim
@@ -40,7 +40,7 @@ echo "LazyVim installed."
 
 # Install kami.
 echo "Installing kami..."
-rsync -avh --progress config/nvim/lua/ $HOME/.config/nvim/lua/
+rsync -avh --progress lua/ $HOME/.config/nvim/lua/
 echo "kami installed."
 
 # Clean up.
