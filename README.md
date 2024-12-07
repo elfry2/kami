@@ -17,10 +17,12 @@ On most Linux systems, in the root directory of this repo, simply execute:
 ./installers/linux.sh
 ```
 
-On Windows' PowerShell, execute:
+On Windows' PowerShell with administrative privileges, execute:
 ```powershell
 .\installers\windows.ps1
 ```
+
+On Windows, the installation script also installs [Windows Terminal](https://github.com/microsoft/terminal).
 
 Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Be sure also not to skip reading the bolded outputs, since they contain information as to what you might have to do next.
 
