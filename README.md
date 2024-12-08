@@ -23,6 +23,14 @@ cd kami
 
 On Windows' PowerShell with [administrative privileges](https://www.windowscentral.com/how-run-app-administrator-windows-10), execute
 ```powershell
+# Install and upgrade Chocolatey.
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+choco upgrade -y chocolatey
+
+# Install git.
+choco install -y git
+
+# Install kami.
 git clone https://github.com/elfry2/kami
 cd kami
 .\installers\windows.ps1
