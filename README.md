@@ -36,7 +36,7 @@ cd kami
 .\installers\windows.ps1
 ```
 
-The installation script for Windows also installs [Windows Terminal](https://github.com/microsoft/terminal) to support icon glyphs without having to manually install a nerd font and configure the terminal to use it.
+The installation script for Windows also installs [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701) to support icon glyphs without having to manually install a nerd font and configure the terminal to use it.
 
 There isn't yet an installer for other systems, but the procedure is easy to reproduce.
 
