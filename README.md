@@ -16,14 +16,16 @@ Do not run the script (or any script) unless you understand what it does and you
 
 In all of the following cases, [git](https://git-scm.com/) is required.
 
-On most Linux systems, it should be as easy as executing
+### Linux
+Tested on Debian, but on most Linux systems it should be as easy as executing
 ```bash
 git clone https://github.com/elfry2/kami
 cd kami
 ./installers/linux.sh
 ```
 
-On Windows' PowerShell with administrative privileges, execute
+### Windows
+On PowerShell with [administrative privileges](https://answers.microsoft.com/en-us/windows/forum/all/run-as-administrator/03b301dc-0859-498a-8152-4a5924573d6e), execute
 ```powershell
 git clone https://github.com/elfry2/kami
 cd kami
