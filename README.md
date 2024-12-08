@@ -14,7 +14,7 @@ All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 ## Installation
 Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Be sure also not to skip reading any bolded output, since they contain information as to what you might have to do next.
 
-In all of the following cases, [git](https://git-scm.com/) is required required.
+In all of the following cases, [git](https://git-scm.com/) is required.
 
 On most Linux systems, it should be as easy as executing
 ```bash
