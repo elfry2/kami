@@ -48,7 +48,7 @@ To use it, execute on terminal
 nvim
 ```
 
-[Neovide](https://neovide.dev/) is included as the GUI, but on Windows it isn't yet properly configured.
+[Neovide](https://neovide.dev/) is included as the [GUI](https://en.m.wikipedia.org/wiki/Graphical_user_interface), but on Windows it isn't yet properly configured.
 
 ## Configuration
 Consult the [LazyVim documentation](https://www.lazyvim.org/configuration).
