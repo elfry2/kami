@@ -38,7 +38,7 @@ cd kami
 
 The installation script for Windows also installs [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701) to support icon glyphs without having to manually install a nerd font and configure the terminal to use it.
 
-There isn't yet an installer for other systems, but the procedure is easy to reproduce.
+There isn't yet an installer for other systems, but the steps are easy to reproduce.
 
 ## Usage
 Before using kami, you are expected to be familiar with Neovim basic usage as well as basic plugin management via [lazy.nvim](https://lazy.folke.io/). It might be useful to also follow along with [this video](https://www.youtube.com/watch?v=N93cTbtLCIM), which walks you through the conveniences of LazyVim.
