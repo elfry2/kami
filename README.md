@@ -12,27 +12,23 @@ All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 5. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) is installed to support Blade files better
 
 ## Installation
-Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Be sure also not to skip reading any bolded output, since they contain information as to what you might have to do next.
+Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Be sure also not to skip reading the bolded outputs, since they contain information as to what you might have to do next.
 
-In all of the following cases, [git](https://git-scm.com/) is required.
-
-### Linux
-Tested on Debian, but on most Linux systems it should be as easy as executing
+On most Linux systems, it should be as easy as executing
 ```bash
 git clone https://github.com/elfry2/kami
 cd kami
 ./installers/linux.sh
 ```
 
-### Windows
-On PowerShell with [administrative privileges](https://answers.microsoft.com/en-us/windows/forum/all/run-as-administrator/03b301dc-0859-498a-8152-4a5924573d6e), execute
+On Windows' PowerShell with [administrative privileges](https://www.windowscentral.com/how-run-app-administrator-windows-10), execute
 ```powershell
 git clone https://github.com/elfry2/kami
 cd kami
 .\installers\windows.ps1
 ```
 
-The installation script for Windows also installs [Windows Terminal](https://github.com/microsoft/terminal) to support glyphs without installing anymore font and configuring the terminal to use it.
+The installation script for Windows also installs [Windows Terminal](https://github.com/microsoft/terminal) to support glyphs without having to install anymore font and manually configure the terminal to use it.
 
 There isn't yet an installer for other systems, but the procedure is easy to reproduce.
 
