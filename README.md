@@ -12,13 +12,19 @@ All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 5. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) is installed to support Blade files better
 
 ## Installation
-On most Linux systems, in the root directory of this repo, simply execute
+### Linux
+Tested on Debian, but on most Linux systems it should be as easy as executing
 ```bash
+git clone https://github.com/elfry2/kami
+cd kami
 ./installers/linux.sh
 ```
 
-On Windows' PowerShell with administrative privileges, execute
+### Windows
+On PowerShell with administrative privileges, execute
 ```powershell
+git clone https://github.com/elfry2/kami
+cd kami
 .\installers\windows.ps1
 ```
 
