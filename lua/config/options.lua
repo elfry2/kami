@@ -4,28 +4,50 @@
 
 -- Neovide-specific config goes here.
 if vim.g.neovide then
-  -- Use Roboto Mono Nerd Font.
-  vim.o.guifont = "RobotoMono Nerd Font:h10"
+	-- Get OS name. Found on: https://stackoverflow.com/a/30960054.
+	function getOS()
+		local BinaryFormat = package.cpath:match("%p[\\|/]?%p(%a+)")
 
-  -- Remember previous window size.
-  vim.g.neovide_remember_window_size = true
+		if BinaryFormat == "dll" then
+			return "Windows"
+		elseif BinaryFormat == "so" then
+			return "Linux"
+		elseif BinaryFormat == "dylib" then
+			return "MacOS"
+		end
 
-  -- Use cwd as window title.
-  --
-  -- Found on or inspired by something found on the following urls:
-  -- - https://github.com/neovide/neovide/issues/1553 and https://www.reddit.com/r/neovim/comments/13ia46q/make_window_title_nvim_pathtofiletxt/
-  -- - https://www.reddit.com/r/neovim/comments/13ia46q/make_window_title_nvim_pathtofiletxt/
-  -- - https://stackoverflow.com/a/69669289
-  -- - https://stackoverflow.com/questions/1405583/concatenation-of-strings-in-lua
-  function isEmpty(string)
-    return string == nil or string == ""
-  end
+		BinaryFormat = nil
+	end
 
-  path = vim.api.nvim_buf_get_name(0)
+	if getOS() == "Linux" then
+		-- Use Roboto Mono Nerd Font.
+		vim.o.guifont = "RobotoMono Nerd Font:h10"
+	end
 
-  vim.opt.title = true
-  vim.opt.titlelen = 0 -- do not shorten title
-  vim.opt.titlestring = isEmpty(path) and "Neovide" or path .. " - Neovide"
+	if getOS() == "Windows" then
+		-- Use Cascadia Mono Font.
+		vim.o.guifont = "Cascadia Mono:h10"
+	end
+
+	-- Remember previous window size.
+	vim.g.neovide_remember_window_size = true
+
+	-- Use cwd as window title.
+	--
+	-- Found on or inspired by something found on the following urls:
+	-- - https://github.com/neovide/neovide/issues/1553 and https://www.reddit.com/r/neovim/comments/13ia46q/make_window_title_nvim_pathtofiletxt/
+	-- - https://www.reddit.com/r/neovim/comments/13ia46q/make_window_title_nvim_pathtofiletxt/
+	-- - https://stackoverflow.com/a/69669289
+	-- - https://stackoverflow.com/questions/1405583/concatenation-of-strings-in-lua
+	function isEmpty(string)
+		return string == nil or string == ""
+	end
+
+	path = vim.api.nvim_buf_get_name(0)
+
+	vim.opt.title = true
+	vim.opt.titlelen = 0 -- do not shorten title
+	vim.opt.titlestring = isEmpty(path) and "Neovide" or path .. " - Neovide"
 end
 
 -- Mark column 80.
