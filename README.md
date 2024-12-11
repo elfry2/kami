@@ -43,7 +43,7 @@ There isn't yet an installer for other systems, but the steps are easy to reprod
 ## Usage
 Before using kami, you are expected to be familiar with Neovim basic usage as well as basic plugin management via [lazy.nvim](https://lazy.folke.io/). It might be useful to also follow along with [this video](https://www.youtube.com/watch?v=N93cTbtLCIM), which walks you through the conveniences of LazyVim.
 
-To use it, launch ```Neovide``` the same way you'd launch any other application, or execute on terminal
+To use it, launch Neovide the same way you'd launch any other application, or execute on terminal
 ```bash
 nvim
 ```
