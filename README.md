@@ -41,7 +41,7 @@ The installation script for Windows also installs [Windows Terminal](https://app
 There isn't yet an installer for other systems, but the steps are easy to reproduce.
 
 ## Usage
-Before using kami, you are expected to be familiar with LazyVim, which can be learnt from this book titled [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/).
+Before using kami, you are expected to be familiar with LazyVim, which can be learnt from [these resources](https://www.lazyvim.org/#-learn).
 
 To use it, launch Neovide the same way you'd launch any other application, or execute on terminal
 ```bash
