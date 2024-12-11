@@ -26,7 +26,7 @@ if vim.g.neovide then
 
 	if getOS() == "Windows" then
 		-- Use Cascadia Mono Font.
-		vim.o.guifont = "Cascadia Mono:h10"
+		vim.o.guifont = "Cascadia Mono:h9"
 	end
 
 	-- Remember previous window size.
