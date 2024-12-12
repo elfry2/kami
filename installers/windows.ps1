@@ -11,5 +11,8 @@ Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data-backup-$([int]
 git clone https://github.com/LazyVim/starter $env:LOCALAPPDATA\nvim
 Remove-Item $env:LOCALAPPDATA\nvim\.git -Recurse -Force
 
+# Add nvim-data to git safe directory.
+git config --global --add safe.directory $env:LOCALAPPDATA\nvim-data\*
+
 # Install kami.
 Copy-Item -Recurse -Force -Path lua -Destination $env:LOCALAPPDATA\nvim
