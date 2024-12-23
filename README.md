@@ -43,6 +43,8 @@ There isn't yet an installer for other systems, but the steps are easy to reprod
 ## Usage
 Before using kami, you are expected to be familiar with LazyVim, which can be learnt from [these resources](https://www.lazyvim.org/#-learn).
 
+If you, like me and pretty much everyone, find it very overwhelming to have to read so much just to use a text editor, you might find it beneficial to get familiar with at least the basic operations of Vim, which can be learnt pretty quickly from [Classic SysAdmin: Vim 101: A Beginner’s Guide to Vim](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-vim-101-a-beginners-guide-to-vim), and then spare some time to gradually learn the rest later when you're a daily driver of the editor.
+
 To use it, launch Neovide the same way you'd launch any other application, or execute on terminal
 ```bash
 nvim
