@@ -50,5 +50,5 @@ To use kami, launch Neovide the same way you'd launch any other application, or 
 nvim
 ```
 
-## Configuration
-Consult the [LazyVim documentation](https://www.lazyvim.org/configuration).
+## Customisation
+Consult the [lazy.nvim documentation](https://lazy.folke.io) and the [LazyVim documentation](https://www.lazyvim.org).
