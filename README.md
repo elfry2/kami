@@ -43,7 +43,7 @@ There isn't yet an installer for other systems, but the steps are easy to reprod
 ## Usage
 To benefit from kami in its full power, it is rather crucial to be familiar with LazyVim, which can be learnt from the resources listed on the [LazyVim website](https://www.lazyvim.org/#-learn).
 
-If you, like me and pretty much everyone, find it very overwhelming to have to read so much just to use a text editor, you might find it beneficial to get familiar with at least the basic operations of Vim first, which can be learnt interactively on [VimHero](https://vim-hero.com), and then spare some time to gradually learn the rest later when you're a daily driver of the editor.
+If you, like me and pretty much everyone, find it very overwhelming to have to read so much just to use a text editor, you might prefer to begin from an interactive tutorial like [VimHero](https://vim-hero.com) to learn at least the basic operations of Vim first, and then spare some time to gradually learn the rest later when you're a daily driver of the editor.
 
 To use kami, launch [Neovide](https://neovide.dev) the same way you'd launch any other application, or execute on terminal
 ```bash
