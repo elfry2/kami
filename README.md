@@ -45,7 +45,7 @@ To benefit from kami in its full power, it is rather crucial to be familiar with
 
 If you, like me and pretty much everyone, find it very overwhelming to have to read so much just to use a text editor, you might find it beneficial to get familiar with at least the basic operations of Vim first, which can be learnt interactively on [VimHero](https://vim-hero.com), and then spare some time to gradually learn the rest later when you're a daily driver of the editor.
 
-To use kami, launch Neovide the same way you'd launch any other application, or execute on terminal
+To use kami, launch [Neovide](https://neovide.dev) the same way you'd launch any other application, or execute on terminal
 ```bash
 nvim
 ```
