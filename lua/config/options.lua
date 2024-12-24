@@ -4,6 +4,9 @@
 
 -- Neovide-specific config goes here.
 if vim.g.neovide then
+	-- Use Pixiedust cursor particle.
+	vim.g.neovide_cursor_vfx_mode = "pixiedust"
+	
 	-- Get OS name. Found on: https://stackoverflow.com/a/30960054.
 	function getOS()
 		local BinaryFormat = package.cpath:match("%p[\\|/]?%p(%a+)")
@@ -31,9 +34,6 @@ if vim.g.neovide then
 
 	-- Remember previous window size.
 	vim.g.neovide_remember_window_size = true
-
-	-- Use Pixiedust cursor particle.
-	vim.g.neovide_cursor_vfx_mode = "pixiedust"
 
 	-- Use cwd as window title.
 	--
