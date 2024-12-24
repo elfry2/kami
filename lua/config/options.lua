@@ -32,6 +32,9 @@ if vim.g.neovide then
 	-- Remember previous window size.
 	vim.g.neovide_remember_window_size = true
 
+	-- Use Pixiedust cursor particle.
+	vim.g.neovide_cursor_vfx_mode = "pixiedust"
+
 	-- Use cwd as window title.
 	--
 	-- Found on or inspired by something found on the following urls:
