@@ -50,5 +50,7 @@ To start kami, launch [Neovide](https://neovide.dev) the same way you'd launch a
 nvim
 ```
 
+On first launch, you'd see [lazy.nvim](https://lazy.folke.io) automatically installing the other plugins. Just wait for the process to finish. If you see any error, press ```Shift```+```S``` and wait again. When the process is finished without any error, you can then press ```q``` and start using kami.
+
 ## Customisation
 Consult the [lazy.nvim documentation](https://lazy.folke.io) and the [LazyVim documentation](https://www.lazyvim.org).
