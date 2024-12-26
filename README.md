@@ -9,7 +9,8 @@ All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 2. ```tr``` is mapped as the key to open the [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) window.
 3. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late night sessions
 4. [vim-jsx-improve](https://github.com/neoclide/vim-jsx-improve) is installed to support JSX files better
-5. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) is installed to support Blade files better.
+5. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) is installed to support Blade files better
+6. [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) is installed for a better terminal experience.
 
 ## Installation
 Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Be sure also not to skip reading the bolded outputs, since they contain information as to what you might have to do next.
