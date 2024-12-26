@@ -4,54 +4,57 @@
 
 -- Neovide-specific config goes here.
 if vim.g.neovide then
-	-- Use Pixiedust cursor particle.
-	vim.g.neovide_cursor_vfx_mode = "pixiedust"
-	
-	-- Get OS name. Found on: https://stackoverflow.com/a/30960054.
-	function getOS()
-		local BinaryFormat = package.cpath:match("%p[\\|/]?%p(%a+)")
+  -- Use Pixiedust cursor particle.
+  vim.g.neovide_cursor_vfx_mode = "pixiedust"
 
-		if BinaryFormat == "dll" then
-			return "Windows"
-		elseif BinaryFormat == "so" then
-			return "Linux"
-		elseif BinaryFormat == "dylib" then
-			return "MacOS"
-		end
+  -- Get OS name. Found on: https://stackoverflow.com/a/30960054.
+  function getOS()
+    local BinaryFormat = package.cpath:match("%p[\\|/]?%p(%a+)")
 
-		BinaryFormat = nil
-	end
+    if BinaryFormat == "dll" then
+      return "Windows"
+    elseif BinaryFormat == "so" then
+      return "Linux"
+    elseif BinaryFormat == "dylib" then
+      return "MacOS"
+    end
 
-	if getOS() == "Linux" then
-		-- Use Roboto Mono Nerd Font.
-		vim.o.guifont = "RobotoMono Nerd Font:h10"
-	end
+    BinaryFormat = nil
+  end
 
-	if getOS() == "Windows" then
-		-- Use Cascadia Mono Font.
-		vim.o.guifont = "Cascadia Mono:h9"
-	end
+  if getOS() == "Linux" then
+    -- Use Roboto Mono Nerd Font.
+    vim.o.guifont = "RobotoMono Nerd Font:h10"
+  end
 
-	-- Remember previous window size.
-	vim.g.neovide_remember_window_size = true
+  if getOS() == "Windows" then
+    -- Use Cascadia Mono Font.
+    vim.o.guifont = "Cascadia Mono:h9"
+  end
 
-	-- Use cwd as window title.
-	--
-	-- Found on or inspired by something found on the following urls:
-	-- - https://github.com/neovide/neovide/issues/1553 and https://www.reddit.com/r/neovim/comments/13ia46q/make_window_title_nvim_pathtofiletxt/
-	-- - https://www.reddit.com/r/neovim/comments/13ia46q/make_window_title_nvim_pathtofiletxt/
-	-- - https://stackoverflow.com/a/69669289
-	-- - https://stackoverflow.com/questions/1405583/concatenation-of-strings-in-lua
-	function isEmpty(string)
-		return string == nil or string == ""
-	end
+  -- Remember previous window size.
+  vim.g.neovide_remember_window_size = true
 
-	path = vim.api.nvim_buf_get_name(0)
+  -- Use cwd as window title.
+  --
+  -- Found on or inspired by something found on the following urls:
+  -- - https://github.com/neovide/neovide/issues/1553 and https://www.reddit.com/r/neovim/comments/13ia46q/make_window_title_nvim_pathtofiletxt/
+  -- - https://www.reddit.com/r/neovim/comments/13ia46q/make_window_title_nvim_pathtofiletxt/
+  -- - https://stackoverflow.com/a/69669289
+  -- - https://stackoverflow.com/questions/1405583/concatenation-of-strings-in-lua
+  function isEmpty(string)
+    return string == nil or string == ""
+  end
 
-	vim.opt.title = true
-	vim.opt.titlelen = 0 -- do not shorten title
-	vim.opt.titlestring = isEmpty(path) and "Neovide" or path .. " - Neovide"
+  path = vim.api.nvim_buf_get_name(0)
+
+  vim.opt.title = true
+  vim.opt.titlelen = 0 -- do not shorten title
+  vim.opt.titlestring = isEmpty(path) and "Neovide" or path .. " - Neovide"
 end
 
 -- Mark column 80.
 vim.cmd("set colorcolumn=80")
+
+-- Use relative line numbers.
+vim.wo.relativenumber = true
