@@ -6,9 +6,10 @@ The perfect text editor--not. It's the [Neovim](https://neovim.io/) configuratio
 ## Features
 All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 1. ```jk``` is set as an alternative to ```<Esc>``` so all fingers can stay home more often and have quality time together
-2. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late night sessions
-3. [vim-jsx-improve](https://github.com/neoclide/vim-jsx-improve) is installed to support JSX files better
-4. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) is installed to support Blade files better.
+2. ```tr``` is mapped as the toggle key for [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
+3. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late night sessions
+4. [vim-jsx-improve](https://github.com/neoclide/vim-jsx-improve) is installed to support JSX files better
+5. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) is installed to support Blade files better.
 
 ## Installation
 Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Be sure also not to skip reading the bolded outputs, since they contain information as to what you might have to do next.
