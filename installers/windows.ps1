@@ -3,7 +3,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco upgrade -y chocolatey
 
 # Install the required Chocolatey packages.
-choco install -y microsoft-windows-terminal git mingw neovim neovide
+choco install -y microsoft-windows-terminal git mingw fzf neovim neovide
 
 # Install LazyVim.
 Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim-backup-$([int](Get-Date -UFormat %s -Millisecond 0))
