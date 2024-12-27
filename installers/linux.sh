@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Install fzf.
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install --all
+
 # Install RobotoMono Nerd Font.
 echo "Installing RobotoMono Nerd Font..."
 curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/RobotoMono.zip
@@ -41,7 +45,7 @@ echo "LazyVim installed."
 # Install kami.
 echo "Installing kami..."
 rsync -avh --progress lua/ $HOME/.config/nvim/lua/
-echo "kami installed."
+echo -e "\033[1mkami installed. Before using it, you might need to restart your shell or reload its configuration file.\033[0m"
 
 # Clean up.
 rm *.tar.gz *.zip
