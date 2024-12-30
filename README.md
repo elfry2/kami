@@ -5,9 +5,9 @@ The perfect text editor--not. It's the [Neovim](https://neovim.io/) configuratio
 
 ## Features
 All of the greatness of [LazyVim](https://www.lazyvim.org/), but
-1. ```j``````k``` is mapped as an alternative to ```<Esc>``` so all fingers can stay home more often and have quality time together
+1. ```j``` ```k``` is mapped as an alternative to ```<Esc>``` so all fingers can stay home more often and have quality time together
 2. ```<Tab>``` is mapped as the confirmation key for [blink.cmp](https://github.com/saghen/blink.cmp)
-3. ```tr``` is mapped as the key to open the [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) window
+3. ```t``` ```r``` is mapped as the key to open the [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) window
 4. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late night sessions
 5. [vim-jsx-improve](https://github.com/neoclide/vim-jsx-improve) is installed to support JSX files better
 6. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) is installed to support Blade files better.
