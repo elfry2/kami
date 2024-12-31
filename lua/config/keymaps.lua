@@ -7,3 +7,7 @@
 -- Found on https://www.reddit.com/r/neovim/comments/10tnhtf/comment/j77s75c
 -- and modified afterwards.
 vim.keymap.set("i", "jk", "<Esc>", { silent = true })
+
+vim.keymap.set("n", "tt", "<cmd>tab term<cr>", { desc = "Open a terminal on a new tabpage" })
+
+vim.keymap.set("n", "ct", "<cmd>bd<cr>", { desc = "Close the current buffer" })
