@@ -23,10 +23,12 @@ echo -e "export PATH=\"\$PATH:/opt/nvim-linux64/bin\"\033[0m"
 
 # Install Neovide binary.
 echo "Installing Neovide..."
-curl -LO https://github.com/neovide/neovide/releases/latest/download/neovide-linux-x86_64.tar.gz
+curl -LO https://github.com/neovide/neovide/releases/latest/download/neovide-linux-x86_64.tar.gz.zip
 sudo rm -rvf /opt/Neovide
 sudo mkdir -v /opt/Neovide
-sudo tar -C /opt/Neovide -xzvf neovide-linux-x86_64.tar.gz
+unzip -o neovide-linux-x86_64.tar.gz.zip
+sudo tar -C /opt/Neovide -xf neovide-linux-x86_64.tar
+sudo curl -LO https://neovide.dev/assets/neovide-128x128.png --output-dir /usr/share/icons
 sudo cp -v neovide.desktop /usr/share/applications
 echo -e "\033[1mNeovide installed. You can now launch it like you would launch any other desktop application.\033[0m"
 
@@ -42,10 +44,10 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 rm -rf ~/.config/nvim/.git
 echo "LazyVim installed."
 
+# Clean up.
+rm *.tar* *.zip
+
 # Install kami.
 echo "Installing kami..."
 rsync -avh --progress lua/ $HOME/.config/nvim/lua/
 echo -e "\033[1mkami installed. Before using it, you might need to restart your shell or reload its configuration file.\033[0m"
-
-# Clean up.
-rm *.tar.gz *.zip
