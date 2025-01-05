@@ -59,4 +59,4 @@ source $rcFilePath
 echo "Installing kami..."
 rsync -avh --progress config/ $HOME/.config/
 
-echo "kami installed."
+echo "kami installed. You might need to restart your shell or reload its configuration file before using it."
