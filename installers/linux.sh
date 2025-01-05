@@ -57,6 +57,6 @@ source $rcFilePath
 
 # Install kami.
 echo "Installing kami..."
-rsync -avh --progress lua/ $HOME/.config/nvim/lua/
+rsync -avh --progress config/ $HOME/.config/
 
 echo "kami installed."

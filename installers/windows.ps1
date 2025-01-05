@@ -15,4 +15,4 @@ Remove-Item $env:LOCALAPPDATA\nvim\.git -Recurse -Force
 git config --global --add safe.directory $env:LOCALAPPDATA\nvim-data\*
 
 # Install kami.
-Copy-Item -Recurse -Force -Path lua -Destination $env:LOCALAPPDATA\nvim
+Copy-Item -Recurse -Force -Path config\nvim -Destination $env:LOCALAPPDATA
