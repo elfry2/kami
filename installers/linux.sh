@@ -59,4 +59,5 @@ source $rcFilePath
 echo "Installing kami..."
 rsync -avh --progress config/ $HOME/.config/
 
-echo "kami installed. You might need to restart your shell or reload its configuration file before using it."
+echo -e "\033[1mKami installed. You might need to restart your shell or reload its configuration file before using it. On bash you can execute:\033[0m"
+echo -e "\033[1m\tsource ~/.bashrc\033[0m"
