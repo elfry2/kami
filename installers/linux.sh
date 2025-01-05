@@ -18,8 +18,7 @@ echo "Installing Neovim..."
 curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz
 sudo rm -rvf /opt/nvim
 sudo tar -C /opt -xzvf nvim-linux64.tar.gz
-echo -e "\033[1mNeovim installed. If you haven't already, append the following line to your shell config (~/.bashrc, ~/.zshrc, ...) for convenience:"
-echo -e "export PATH=\"\$PATH:/opt/nvim-linux64/bin\"\033[0m"
+echo "Neovim installed."
 
 # Install Neovide binary.
 echo "Installing Neovide..."
@@ -47,7 +46,17 @@ echo "LazyVim installed."
 # Clean up.
 rm *.tar* *.zip
 
+# Insert paths to and reload the shell's rc file.
+rcFilePath=$HOME/.bashrc
+kamiPathString="export PATH=\"\$PATH:/opt/nvim-linux64/bin\""
+if ! grep -wq "$kamiPathString" $rcFilePath ; then
+	echo "" >> $rcFilePath
+	echo $kamiPathString >> $rcFilePath
+fi
+source $rcFilePath
+
 # Install kami.
 echo "Installing kami..."
 rsync -avh --progress lua/ $HOME/.config/nvim/lua/
-echo -e "\033[1mkami installed. Before using it, you might need to restart your shell or reload its configuration file.\033[0m"
+
+echo "kami installed."
