@@ -49,7 +49,7 @@ To use kami in its full power, it is rather crucial to be familiar with LazyVim,
 
 If you, like me and pretty much everyone these days, find it very overwhelming to have to read so much just to use a text editor, you might prefer to begin with interactive tutorials like [OpenVim](https://openvim.com) or [VimHero](https://www.vim-hero.com/) to learn at least the basic operations of Vim for now, and then spare some time to gradually learn the rest later when you're a daily driver.
 
-On first run, you'd be staring at [lazy.nvim](https://lazy.folke.io/) doing its best setting up your environment. It is common here, especially on slower connections, to see some scary red git errors, but most of the time they can be solved simply by waiting for the process to finish and hitting ```S``` (```Ctrl``` ```s```). The log at the bottom might also require you to press ```Space``` sometimes. When everything's ready, you can press ```q``` to go to the dashboard.
+On first run, you'd be staring at [lazy.nvim](https://lazy.folke.io/) doing its best setting up your environment. It is common here, especially on slower connections, to see some scary red git errors, but most of the time they can be solved simply by waiting for the process to finish and hitting ```S``` (```<Ctrl>``` ```s```). The log at the bottom might also require you to press ```<Space>``` sometimes. When everything's ready, you can press ```q``` to go to the dashboard.
 
 To start kami, launch [Neovide](https://neovide.dev) the same way you'd launch any other application, or execute on terminal
 ```bash
