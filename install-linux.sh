@@ -8,7 +8,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 echo "Installing RobotoMono Nerd Font..."
 curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/RobotoMono.zip
 sudo mkdir -v /usr/share/fonts/truetype/roboto-mono-nerd
-sudo unzip RobotoMono.zip -d /usr/share/fonts/truetype/roboto-mono-nerd
+sudo unzip -o RobotoMono.zip -d /usr/share/fonts/truetype/roboto-mono-nerd
 sudo fc-cache -fv
 echo -e "\033[1mRoboto Mono Nerd Font installed. To display icons, configure your terminal to use a nerd font.\033[0m"
 
