@@ -58,3 +58,15 @@ vim.cmd("set colorcolumn=80")
 
 -- Use relative line numbers.
 vim.wo.relativenumber = true
+
+-- Create a command to turn off background colours. Useful on terminals that
+-- support translucent backgrounds.
+--
+-- Found on or inspired by something found on the following urls:
+-- - https://www.reddit.com/r/neovim/comments/z7pc9m/new_commands/
+-- - https://neovim.io/doc/user/lua-guide.html#lua-guide-commands-create
+vim.api.nvim_create_user_command(
+  "NoBackground",
+  "highlight Normal guibg=NONE | highlight NonText guibg=NONE | highlight SignColumn guibg=NONE",
+  {}
+)
