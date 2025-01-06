@@ -10,10 +10,11 @@ All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 3. ```t``` ```r``` is mapped as a shortcut to open the [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) window
 4. ```t``` ```t``` is mapped as a shortcut to open a terminal on a new tabpage
 5. ```c``` ```t``` is mapped as a shortcut to close the current buffer
-6. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late night sessions
-7. [vim-jsx-improve](https://github.com/neoclide/vim-jsx-improve) is installed to support JSX files better
-8. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) is installed to support Blade files better
-9. ```editor.telescope``` extra is enabled 'cause I gave up making [fzf-lua](https://github.com/ibhagwan/fzf-lua) work on Neovide on GNOME.
+6. ```!``` ```b``` ```g``` is mapped as a shortcut to turn off custom background color
+7. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late night sessions
+8. [vim-jsx-improve](https://github.com/neoclide/vim-jsx-improve) is installed to support JSX files better
+9. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) is installed to support Blade files better
+10. ```editor.telescope``` extra is enabled 'cuz I gave up making [fzf-lua](https://github.com/ibhagwan/fzf-lua) work on Neovide on GNOME.
 
 ## Installation
 Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Be sure also not to skip reading the bolded outputs, since they contain information as to what you might have to do next.
