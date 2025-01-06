@@ -10,7 +10,7 @@ All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 3. ```t``` ```r``` is mapped as a shortcut to open the [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) window
 4. ```t``` ```t``` is mapped as a shortcut to open a terminal on a new tabpage
 5. ```c``` ```t``` is mapped as a shortcut to close the current buffer
-6. ```!``` ```b``` ```g``` is mapped as a shortcut to turn off custom background color
+6. ```!``` ```b``` ```g``` is mapped as a shortcut to turn off the custom background color
 7. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late night sessions
 8. [vim-jsx-improve](https://github.com/neoclide/vim-jsx-improve) is installed to support JSX files better
 9. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) is installed to support Blade files better
