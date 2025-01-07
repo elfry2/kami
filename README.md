@@ -13,7 +13,7 @@ All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 6. ```NoBackground``` command is added to make it easier to turn off the background colour (useful on terminals that support translucent background)
 7. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late night sessions
 8. [vim-jsx-improve](https://github.com/neoclide/vim-jsx-improve) is installed to support JSX files better
-9. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) is installed to support Blade files better
+9. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) is installed to support Blade files better. Further setup is required. Follow [this discussion](https://github.com/EmranMR/tree-sitter-blade/discussions/19#discussioncomment-8574120)
 10. ```editor.telescope``` extra is enabled 'cuz I gave up making [fzf-lua](https://github.com/ibhagwan/fzf-lua) work on Neovide on GNOME.
 
 ## Installation
