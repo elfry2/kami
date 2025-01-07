@@ -14,7 +14,7 @@ All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 7. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late night sessions
 8. [vim-jsx-improve](https://github.com/neoclide/vim-jsx-improve) is installed to support JSX files better
 9. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) and [vim-blade](https://github.com/jwalton512/vim-blade) is installed to support Blade files better 
-10. Missing Tree-sitter parsers are installed automatically upon opening a file of a new type
+10. Missing Tree-sitter parsers are installed automatically upon opening a file of a new type. Causes a moment of freezing, though
 11. ```editor.telescope``` extra is enabled 'cuz I gave up making [fzf-lua](https://github.com/ibhagwan/fzf-lua) work on Neovide on GNOME.
 
 ## Installation
