@@ -5,7 +5,7 @@ The perfect text editor--not. It's the [Neovim](https://neovim.io/) configuratio
 
 ## Features
 All of the greatness of [LazyVim](https://www.lazyvim.org/), but
-1. ```j``` ```k``` is mapped as another way to escape Insert Mode so all fingers can stay home more often and have quality time together
+1. ```j``` ```k``` is mapped as another way to escape Insert Mode and Terminal Mode so all fingers can stay home more often and have quality time together
 2. ```;``` ```f``` is mapped as a shortcut to toggle the visibility of the [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) window
 3. ```;``` ```t``` is mapped as a shortcut to open a terminal on a new tabpage
 4. ```;``` ```c``` is mapped as a shortcut to close the current buffer
