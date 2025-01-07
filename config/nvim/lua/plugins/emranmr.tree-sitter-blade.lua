@@ -11,6 +11,7 @@ return {
 				"php_only",
 				"php",
 				"bash",
+				"blade",
 			},
 		},
 		config = function(_, opts)
