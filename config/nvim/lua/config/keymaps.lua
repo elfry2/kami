@@ -16,6 +16,6 @@ vim.keymap.set("t", "jk", "<C-\\><C-n>", { silent = true })
 -- - https://www.reddit.com/r/neovim/comments/10tnhtf/comment/j77s75c
 vim.keymap.set("i", "jk", "<Esc>", { silent = true })
 
-vim.keymap.set("n", ";t", "<cmd>tab term<cr>", { desc = "Open a terminal on a new tabpage" })
+vim.keymap.set("n", ";t", "<cmd>term<cr>", { desc = "Open a terminal buffer" })
 
 vim.keymap.set("n", ";c", "<cmd>bd<cr>", { desc = "Close the current buffer" })

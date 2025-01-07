@@ -8,7 +8,7 @@ All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 1. ```j``` ```k``` is mapped as another way to escape Insert Mode and Terminal Mode so all fingers can stay home more often and have quality time together
 2. [super-tab](https://cmp.saghen.dev/configuration/keymap.html#super-tab) mapping is used for [blink.cmp](https://github.com/saghen/blink.cmp) to keep the user from losing his mind
 3. ```;``` ```f``` is mapped as a shortcut to toggle the visibility of the [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) window
-4. ```;``` ```t``` is mapped as a shortcut to open a terminal on a new tabpage
+4. ```;``` ```t``` is mapped as a shortcut to open a new terminal buffer
 5. ```;``` ```c``` is mapped as a shortcut to close the current buffer
 6. ```NoBackground``` command is added to make it easier to turn off the background colour (useful on terminals that support translucent background)
 7. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late night sessions
