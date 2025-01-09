@@ -28,7 +28,7 @@ if vim.g.neovide then
 	end
 
 	if getOS() == "Windows" then
-		-- Use Cascadia Mono Font.
+		-- Use Cascadia Mono Nerd Font.
 		vim.o.guifont = "CaskaydiaCove Nerd Font:h9"
 	end
 
