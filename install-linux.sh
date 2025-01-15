@@ -61,11 +61,20 @@ if ! grep -wq "$kamiPathString" $rcFilePath ; then
 fi
 
 # Insert paths to .zshrc.
-rcFilePath=$HOME/.zshrc
-kamiPathString="export PATH=\"\$PATH:/opt/nvim-linux64/bin\""
-if ! grep -wq "$kamiPathString" $rcFilePath ; then
-  echo "" >> $rcFilePath
-  echo $kamiPathString >> $rcFilePath
+if [ -f $HOME/.config/zsh/rc.d/04-env.zsh ] ; then
+  rcFilePath=$HOME/.config/zsh/rc.d/04-env.zsh
+  kamiPathString="export PATH=\"\$PATH:/opt/nvim-linux64/bin\""
+  if ! grep -wq "$kamiPathString" $rcFilePath ; then
+    echo "" >> $rcFilePath
+    echo $kamiPathString >> $rcFilePath
+  fi
+else
+  rcFilePath=$HOME/.zshrc
+  kamiPathString="export PATH=\"\$PATH:/opt/nvim-linux64/bin\""
+  if ! grep -wq "$kamiPathString" $rcFilePath ; then
+    echo "" >> $rcFilePath
+    echo $kamiPathString >> $rcFilePath
+  fi
 fi
 
 # Install kami.
