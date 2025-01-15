@@ -4,14 +4,14 @@
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install --all
 
-# Install RobotoMono Nerd Font.
+# Install CaskaydiaCove Nerd Font.
 if ! [[ $* == *--no-font* ]] ; then
-  echo "Installing RobotoMono Nerd Font..."
-  curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/RobotoMono.zip
-  sudo mkdir -v /usr/share/fonts/truetype/roboto-mono-nerd
-  sudo unzip -o RobotoMono.zip -d /usr/share/fonts/truetype/roboto-mono-nerd
+  echo "Installing CaskaydiaCove Nerd Font..."
+  curl -LO https://github.com/ryanoasis/nerd-fonts/releases/latest/download/CascadiaCode.zip
+  sudo mkdir -v /usr/share/fonts/truetype/caskaydiacove-nerd
+  sudo unzip -o CascadiaCode.zip -d /usr/share/fonts/truetype/caskaydiacove-nerd
   sudo fc-cache -fv
-  echo -e "\033[1mRoboto Mono Nerd Font installed. To display icons, configure your terminal to use a nerd font.\033[0m"
+  echo -e "\033[1mCaskaydiaCove Nerd Font installed. To display icons, configure your terminal to use a nerd font.\033[0m"
 fi
 
 # Install Neovim Nightly binary.
@@ -52,14 +52,21 @@ echo "LazyVim installed."
 # Clean up.
 rm *.tar* *.zip
 
-# Insert paths to and reload the shell's rc file.
+# Insert paths to .bashrc.
 rcFilePath=$HOME/.bashrc
 kamiPathString="export PATH=\"\$PATH:/opt/nvim-linux64/bin\""
 if ! grep -wq "$kamiPathString" $rcFilePath ; then
-	echo "" >> $rcFilePath
-	echo $kamiPathString >> $rcFilePath
+  echo "" >> $rcFilePath
+  echo $kamiPathString >> $rcFilePath
 fi
-source $rcFilePath
+
+# Insert paths to .zshrc.
+rcFilePath=$HOME/.zshrc
+kamiPathString="export PATH=\"\$PATH:/opt/nvim-linux64/bin\""
+if ! grep -wq "$kamiPathString" $rcFilePath ; then
+  echo "" >> $rcFilePath
+  echo $kamiPathString >> $rcFilePath
+fi
 
 # Install kami.
 echo "Installing kami..."

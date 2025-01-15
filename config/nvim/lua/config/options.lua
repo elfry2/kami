@@ -24,7 +24,7 @@ if vim.g.neovide then
 
 	if getOS() == "Linux" then
 		-- Use Roboto Mono Nerd Font.
-		vim.o.guifont = "RobotoMono Nerd Font:h10"
+		vim.o.guifont = "CaskaydiaCove Nerd Font:h10"
 	end
 
 	if getOS() == "Windows" then

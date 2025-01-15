@@ -1,7 +1,7 @@
 # kami
 The perfect text editor--not. It's the [Neovim](https://neovim.io/) configuration I mainly use for web development.
 
-![image](https://github.com/elfry2/kami/assets/47256917/3bf4fe67-b6f8-4881-ac4c-3f1c68388492)
+![image](https://github.com/user-attachments/assets/d9d6613d-34f8-4d49-b67a-d9a113cfb567)
 
 ## Features
 All of the greatness of [LazyVim](https://www.lazyvim.org/), but
