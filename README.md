@@ -3,6 +3,8 @@ The perfect text editor--not. It's the [Neovim](https://neovim.io/) configuratio
 
 ![image](https://github.com/user-attachments/assets/d9d6613d-34f8-4d49-b67a-d9a113cfb567)
 
+The above image shows kami running on [daru](https://github.com/elfry2/daru).
+
 ## Features
 All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 1. ```j``` ```k``` is mapped as another way to escape Insert Mode and Terminal Mode so all fingers can stay home more often and have quality time together
