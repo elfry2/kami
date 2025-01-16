@@ -1,5 +1,5 @@
 # kami
-The perfect text editor--not. It's the [Neovim](https://neovim.io/) configuration I mainly use for web development.
+The perfect text editor--not. It's the [Neovim](https://neovim.io/) configuration I use mainly for web development.
 
 ![image](https://github.com/user-attachments/assets/d9d6613d-34f8-4d49-b67a-d9a113cfb567)
 
