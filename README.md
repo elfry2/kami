@@ -28,14 +28,16 @@ cd kami
 ./install-linux.sh
 ```
 
-On Windows' PowerShell with [administrative privileges](https://www.windowscentral.com/how-run-app-administrator-windows-10), execute
+On Windows' PowerShell, execute
 ```powershell
-# Install and upgrade Chocolatey.
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-choco upgrade -y chocolatey
+# Install and upgrade Scoop.
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+if(-Not (Get-Command scoop -errorAction SilentlyContinue)) {
+  Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+}
 
-# Install git.
-choco install -y git
+# Install git Scoop package.
+scoop install git
 
 # Install kami.
 git clone https://github.com/elfry2/kami
@@ -43,8 +45,7 @@ cd kami
 .\install-windows.ps1
 ```
 
-The installation script for Windows also installs [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701) via [Chocolatey](https://chocolatey.org/).
-
+The installation script for Windows also installs [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701) via [Scoop](https://scoop.sh/).
 There isn't yet an installer for other systems, but the steps are easy to reproduce.
 
 ## Usage
