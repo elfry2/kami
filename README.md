@@ -12,7 +12,7 @@ All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 3. ```;``` ```f``` is mapped as a shortcut to toggle the visibility of the [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) window
 4. ```;``` ```t``` is mapped as a shortcut to open a new terminal buffer
 5. ```;``` ```c``` is mapped as a shortcut to close the current buffer
-6. ```NoBackground``` command is added to make it easier to turn off the background colour (useful on terminals that support translucent background)
+6. ```:NoBackground``` command is added to make it easier to turn off the background colour (useful on terminals that support translucent background)
 7. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late-night sessions
 8. [vim-jsx-improve](https://github.com/neoclide/vim-jsx-improve) is installed to support JSX files better
 9. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) and [vim-blade](https://github.com/jwalton512/vim-blade) is installed to support Blade files better 
@@ -45,7 +45,8 @@ cd kami
 .\install-windows.ps1
 ```
 
-The installation script for Windows also installs [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701) via [Scoop](https://scoop.sh/).
+The installation script for Windows also installs [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701) via [Scoop](https://scoop.sh/). If you find this bloated, you'd know which to remove once you read the script.
+
 There isn't yet an installer for other systems, but the steps are easy to reproduce.
 
 ## Usage
