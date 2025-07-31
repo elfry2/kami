@@ -56,7 +56,7 @@ if vim.g.neovide then
 	-- Found on https://github.com/neovide/neovide/issues/1243#issuecomment-1064615391.
 	vim.api.nvim_set_keymap('n', '<F11>', ":let g:neovide_fullscreen = !g:neovide_fullscreen<CR>", {})
 
-	-- Use Ctrl+- and Ctrl++ to change font size.
+	-- Use Ctrl+- and Ctrl+= to change font size.
 	-- 
 	-- Found on https://github.com/neovide/neovide/discussions/2301#discussioncomment-8223203.
 	vim.keymap.set({ "n", "v" }, "<C-=>", ":lua vim.g.neovide_scale_factor = vim.g.neovide_scale_factor + 0.1<CR>")
