@@ -51,6 +51,21 @@ if vim.g.neovide then
 	vim.opt.title = true
 	vim.opt.titlelen = 0 -- do not shorten title
 	vim.opt.titlestring = isEmpty(path) and "Neovide" or path .. " - Neovide"
+
+	-- Use F11 as the full-screen toggle.
+	-- 
+	-- Found on https://github.com/neovide/neovide/issues/1243#issuecomment-1064615391.
+	vim.api.nvim_set_keymap('n', '<F11>', ":let g:neovide_fullscreen = !g:neovide_fullscreen<CR>", {})
+
+	-- Use Ctrl+- and Ctrl++ to change font size.
+	-- 
+	-- Found on https://github.com/neovide/neovide/discussions/2301#discussioncomment-8223200.
+	function! AdjustFontSize(amount)
+    		let s:guifontsize = s:guifontsize + a:amount
+    		execute "set guifont=" .. s:guifont .. ":h" .. s:guifontsize
+	endfunction
+	nnoremap <C-+> <cmd>call AdjustFontSize(+1)<cr>
+	nnoremap <C--> <cmd>call AdjustFontSize(-1)<cr>
 end
 
 -- Mark column 80.
