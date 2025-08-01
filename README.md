@@ -12,11 +12,13 @@ All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 3. ```;``` ```f``` is mapped as a shortcut to toggle the visibility of the [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim) window
 4. ```;``` ```t``` is mapped as a shortcut to open a new terminal buffer
 5. ```;``` ```c``` is mapped as a shortcut to close the current buffer
-6. ```:NoBackground``` command is added to make it easier to turn off the background colour (useful on terminals that support translucent background)
-7. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late-night sessions
-8. [vim-jsx-improve](https://github.com/neoclide/vim-jsx-improve) is installed to support JSX files better
-9. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) and [vim-blade](https://github.com/jwalton512/vim-blade) is installed to support Blade files better 
-10. ```editor.telescope``` extra is enabled 'cuz I gave up making [fzf-lua](https://github.com/ibhagwan/fzf-lua) work on Neovide on GNOME.
+6. ```F11``` is mapped as the fullscreen toggle
+7. ```Ctrl```+```-``` and ```Ctrl```+```=``` is mapped as shortcuts to change font size and scaling
+8. ```:NoBackground``` command is added to make it easier to turn off the background colour (useful on terminals that support translucent background)
+9. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late-night sessions
+10. [vim-jsx-improve](https://github.com/neoclide/vim-jsx-improve) is installed to support JSX files better
+11. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) and [vim-blade](https://github.com/jwalton512/vim-blade) is installed to support Blade files better 
+12. ```editor.telescope``` extra is enabled 'cuz I gave up making [fzf-lua](https://github.com/ibhagwan/fzf-lua) work on Neovide on GNOME.
 
 ## Installation
 Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Be sure also not to skip reading the bolded outputs, since they contain information as to what you might have to do next.
