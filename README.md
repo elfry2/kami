@@ -56,7 +56,7 @@ To use kami in its full power, it is rather crucial to be familiar with LazyVim,
 
 If you, like me and pretty much everyone these days, find it very overwhelming to have to read so much just to use a text editor, you might prefer to begin with interactive tutorials like [OpenVim](https://openvim.com) or [VimHero](https://www.vim-hero.com/) to learn at least the basic operations of Vim for now, and then learn the rest later as you go.
 
-On first run, you'd be staring at [lazy.nvim](https://lazy.folke.io/) doing its best setting up your environment. It is common here, especially on slower connections, to see some red scary git errors, but most of the time they can be solved simply by waiting for the process to finish and then hitting ```S``` (```<Shift>``` ```s```). The logs at the bottom might also require you to press ```<Space>``` sometimes. When everything is ready, you can press ```q``` to go to the dashboard, 'though it is recommended to run :LazyHealth after installation.
+On first run, you'd be staring at [lazy.nvim](https://lazy.folke.io/) doing its best setting up your environment. It is common here, especially on slower connections, to see some red scary git errors, but most of the time they can be solved simply by waiting for the process to finish and then hitting ```S``` (```<Shift>``` ```s```). The logs at the bottom might also require you to press ```<Space>``` sometimes. When everything is ready, you can press ```q``` to go to the dashboard, 'though it is recommended to run ```:LazyHealth``` after installation.
 
 To display icons, configure your terminal to use a nerd font. The script installs CaskaydiaCove Nerd Font Mono.
 
