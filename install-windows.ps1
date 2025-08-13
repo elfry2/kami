@@ -33,3 +33,5 @@ git config --global --add safe.directory $env:LOCALAPPDATA\nvim-data\*
 
 # Install kami.
 Copy-Item -Recurse -Force -Path config\nvim -Destination $env:LOCALAPPDATA
+
+echo "Script finished. Make sure to read the output. To display icons, configure your terminal to use a nerd font. After LazyVim finishes installing, it is recommended to run :LazyHealth after installation."

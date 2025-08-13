@@ -5,7 +5,7 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install --all
 
 # Install CaskaydiaCove Nerd Font.
-if ! [[ $* == *--no-font* ]] ; then
+if ! [[ $* == *--no-font* ]]; then
   echo "Installing CaskaydiaCove Nerd Font..."
   curl -LO https://github.com/ryanoasis/nerd-fonts/releases/latest/download/CascadiaCode.zip
   sudo mkdir -v /usr/share/fonts/truetype/caskaydiacove-nerd
@@ -15,7 +15,7 @@ if ! [[ $* == *--no-font* ]] ; then
 fi
 
 # Install Neovim Nightly binary.
-if ! [[ $* == *--no-neovim* ]] ; then
+if ! [[ $* == *--no-neovim* ]]; then
   echo "Installing Neovim..."
   #curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
   curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz
@@ -25,7 +25,7 @@ if ! [[ $* == *--no-neovim* ]] ; then
 fi
 
 # Install Neovide binary.
-if ! [[ $* == *--no-neovide* ]] ; then
+if ! [[ $* == *--no-neovide* ]]; then
   echo "Installing Neovide..."
   curl -LO https://github.com/neovide/neovide/releases/latest/download/neovide-linux-x86_64.tar.gz.zip
   sudo rm -rvf /opt/Neovide
@@ -55,25 +55,25 @@ rm *.tar* *.zip
 # Insert paths to .bashrc.
 rcFilePath=$HOME/.bashrc
 kamiPathString="export PATH=\"\$PATH:/opt/nvim-linux64/bin\""
-if ! grep -wq "$kamiPathString" $rcFilePath ; then
-  echo "" >> $rcFilePath
-  echo $kamiPathString >> $rcFilePath
+if ! grep -wq "$kamiPathString" $rcFilePath; then
+  echo "" >>$rcFilePath
+  echo $kamiPathString >>$rcFilePath
 fi
 
 # Insert paths to .zshrc.
-if [ -f $HOME/.config/zsh/rc.d/04-env.zsh ] ; then
+if [ -f $HOME/.config/zsh/rc.d/04-env.zsh ]; then
   rcFilePath=$HOME/.config/zsh/rc.d/04-env.zsh
   kamiPathString="export PATH=\"\$PATH:/opt/nvim-linux64/bin\""
-  if ! grep -wq "$kamiPathString" $rcFilePath ; then
-    echo "" >> $rcFilePath
-    echo $kamiPathString >> $rcFilePath
+  if ! grep -wq "$kamiPathString" $rcFilePath; then
+    echo "" >>$rcFilePath
+    echo $kamiPathString >>$rcFilePath
   fi
 else
   rcFilePath=$HOME/.zshrc
   kamiPathString="export PATH=\"\$PATH:/opt/nvim-linux64/bin\""
-  if ! grep -wq "$kamiPathString" $rcFilePath ; then
-    echo "" >> $rcFilePath
-    echo $kamiPathString >> $rcFilePath
+  if ! grep -wq "$kamiPathString" $rcFilePath; then
+    echo "" >>$rcFilePath
+    echo $kamiPathString >>$rcFilePath
   fi
 fi
 
@@ -81,5 +81,5 @@ fi
 echo "Installing kami..."
 rsync -avh --progress config/ $HOME/.config/
 
-echo -e "\033[1mKami installed. You might need to restart your shell or reload its configuration file before using it. On bash you can execute:\033[0m"
+echo -e "\033[1mScript finished. Make sure to read the output. To display icons, configure your terminal to use a nerd font. After LazyVim finishes installing, it is recommended to run :LazyHealth after installation.You might need to restart your shell or reload its configuration file before using it. On bash you can execute:\033[0m"
 echo -e "\033[1m\tsource ~/.bashrc\033[0m"
