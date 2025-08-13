@@ -61,11 +61,11 @@ On first run, you'd be staring at [lazy.nvim](https://lazy.folke.io/) doing its 
 To start kami, launch [Neovide](https://neovide.dev) the same way you'd launch any other application, or execute on terminal
 ```bash
 nvim
+```
 
 After LazyVim finishes installing, it is recommended to run :LazyHealth after installation.
 
 To display icons, configure your terminal to use a nerd font. The script installs CaskaydiaCove Nerd Font Mono.
-```
 
 ## Customisation
 Consult the [lazy.nvim documentation](https://lazy.folke.io) and the [LazyVim documentation](https://www.lazyvim.org).
