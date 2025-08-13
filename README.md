@@ -1,4 +1,4 @@
-Unmaintained. Just use [LazyVim](https://www.lazyvim.org/) instead.
+Not maintained. Just use [LazyVim](https://www.lazyvim.org/) instead.
 
 # kami
 The perfect text editor–not. It's a script to install the [Neovim](https://neovim.io/) configuration I use mainly for web development.
