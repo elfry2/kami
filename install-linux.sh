@@ -81,5 +81,7 @@ fi
 echo "Installing kami..."
 rsync -avh --progress config/ $HOME/.config/
 
-echo -e "\033[1mScript finished. Make sure to read the output. To display icons, configure your terminal to use a nerd font. After LazyVim finishes installing, it is recommended to run :LazyHealth after installation.You might need to restart your shell or reload its configuration file before using it. On bash you can execute:\033[0m"
+echo -e "\033[1mScript finished. Make sure to read the output. To display icons, configure your terminal to use a nerd font. The script installed CaskaydiaCove Nerd Font Mono. You might need to restart your shell or reload its configuration file for the shell to be able to run kami. On bash you can execute:\033[0m"
 echo -e "\033[1m\tsource ~/.bashrc\033[0m"
+echo ""
+echo "After LazyVim finishes installing, it is recommended to run :LazyHealth after installation."

@@ -16,9 +16,7 @@ All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 7. ```Ctrl```+```-``` and ```Ctrl```+```=``` is mapped as shortcuts to change font size and scaling
 8. ```:NoBackground``` command is added to make it easier to turn off the background colour (useful on terminals that support translucent background)
 9. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late-night sessions
-10. [vim-jsx-improve](https://github.com/neoclide/vim-jsx-improve) is installed to support JSX files better
-11. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) and [vim-blade](https://github.com/jwalton512/vim-blade) is installed to support Blade files better 
-12. ```editor.telescope``` extra is enabled 'cuz I gave up making [fzf-lua](https://github.com/ibhagwan/fzf-lua) work on Neovide on GNOME.
+10. ```editor.telescope``` extra is enabled 'cuz I gave up making [fzf-lua](https://github.com/ibhagwan/fzf-lua) work on Neovide on GNOME.
 
 ## Installation
 Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Be sure also not to skip reading the bolded outputs, since they contain information as to what you might have to do next.
@@ -47,6 +45,8 @@ cd kami
 .\install-windows.ps1
 ```
 
+Make sure to read the output. There isn't much error handling, if any, so brace for impact.
+
 The installation script for Windows also installs [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701) via [Scoop](https://scoop.sh/). If you find this bloated, you'd know which to remove once you read the script.
 
 There isn't yet an installer for other systems, but the steps are easy to reproduce.
@@ -61,6 +61,10 @@ On first run, you'd be staring at [lazy.nvim](https://lazy.folke.io/) doing its 
 To start kami, launch [Neovide](https://neovide.dev) the same way you'd launch any other application, or execute on terminal
 ```bash
 nvim
+
+After LazyVim finishes installing, it is recommended to run :LazyHealth after installation.
+
+To display icons, configure your terminal to use a nerd font. The script installs CaskaydiaCove Nerd Font Mono.
 ```
 
 ## Customisation
