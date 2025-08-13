@@ -19,7 +19,7 @@ All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 10. ```editor.telescope``` extra is enabled 'cuz I gave up making [fzf-lua](https://github.com/ibhagwan/fzf-lua) work on Neovide on GNOME.
 
 ## Installation
-Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Be sure also not to skip reading the bolded outputs, since they contain information as to what you might have to do next.
+Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Be sure also not to skip reading the bolded outputs, since they contain information as to what you might have to do next. Actually, read everything. There isn't much error handling, if any.
 
 On most Linux systems, it should be as easy as executing
 ```bash
@@ -44,8 +44,6 @@ git clone https://github.com/elfry2/kami
 cd kami
 .\install-windows.ps1
 ```
-
-Make sure to read the output. There isn't much error handling, if any, so brace for impact.
 
 The installation script for Windows also installs [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701) via [Scoop](https://scoop.sh/). If you find this bloated, you'd know which to remove once you read the script.
 
