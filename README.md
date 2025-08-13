@@ -58,14 +58,14 @@ If you, like me and pretty much everyone these days, find it very overwhelming t
 
 On first run, you'd be staring at [lazy.nvim](https://lazy.folke.io/) doing its best setting up your environment. It is common here, especially on slower connections, to see some red scary git errors, but most of the time they can be solved simply by waiting for the process to finish and then hitting ```S``` (```<Shift>``` ```s```). The logs at the bottom might also require you to press ```<Space>``` sometimes. When everything is ready, you can press ```q``` to go to the dashboard.
 
+After LazyVim finishes installing, it is recommended to run :LazyHealth after installation.
+
+To display icons, configure your terminal to use a nerd font. The script installs CaskaydiaCove Nerd Font Mono.
+
 To start kami, launch [Neovide](https://neovide.dev) the same way you'd launch any other application, or execute on terminal
 ```bash
 nvim
 ```
-
-After LazyVim finishes installing, it is recommended to run :LazyHealth after installation.
-
-To display icons, configure your terminal to use a nerd font. The script installs CaskaydiaCove Nerd Font Mono.
 
 ## Customisation
 Consult the [lazy.nvim documentation](https://lazy.folke.io) and the [LazyVim documentation](https://www.lazyvim.org).
