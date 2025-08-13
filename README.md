@@ -19,7 +19,7 @@ All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 10. ```editor.telescope``` extra is enabled 'cuz I gave up making [fzf-lua](https://github.com/ibhagwan/fzf-lua) work on Neovide on GNOME.
 
 ## Installation
-Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Be sure also not to skip reading the bolded outputs, since they contain information as to what you might have to do next. Actually, read everything. There isn't much error handling, if any.
+Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Be sure also not to skip reading the bolded outputs, since they contain information as to what you might have to do next. Actually, read everything, since there isn't much error handling, if any, and you wouldn't want to think the script ran successfully when it didn't.
 
 On most Linux systems, it should be as easy as executing
 ```bash
