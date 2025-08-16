@@ -18,7 +18,7 @@ All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 ## Installation
 Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Make sure to not skip reading the output; there isn't much error-handling, if any, and you wouldn't want to think the script ran successfully when it didn't. Don't skip reading this README.md to the end either.
 
-On most Linux systems, it should be as easy as executing
+On most Linux systems, it should be as easy as executing (can be pasted at once)
 ```bash
 git clone https://github.com/elfry2/kami
 cd kami
