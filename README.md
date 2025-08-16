@@ -47,7 +47,9 @@ The installation script for Windows also installs [Windows Terminal](https://app
 
 There isn't yet an installer for other systems, but the steps are easy to reproduce.
 
-## Pre-usage
+## Things to know before using
+Check out [LazyVim's Space Mode](https://www.lazyvim.org/keymaps)!
+
 To use kami in its full power, it is rather crucial to be familiar with LazyVim, which can be learnt from the resources listed on the [LazyVim website](https://www.lazyvim.org/#-learn).
 
 On first run, you'd be staring at [lazy.nvim](https://lazy.folke.io/) doing its best setting up your environment. It is common here, especially on slower connections, to see some red scary git errors, but most of the time they can be solved simply by waiting for the process to finish and then hitting ```S``` (```<Shift>``` ```s```). The logs at the bottom might also require you to press ```<Space>``` sometimes. When everything is ready, run ```:LazyHealth``` on the Neovim command line to make sure everything is working correctly. Once finished, mash ```q``` until Neovim quits.
