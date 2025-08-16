@@ -48,7 +48,7 @@ The installation script for Windows also installs [Windows Terminal](https://app
 There isn't yet an installer for other systems, but the steps are easy to reproduce.
 
 ## Things to know before using
-Check out [LazyVim's Space Mode](https://www.lazyvim.org/keymaps)!
+Unlike plain Neovim, LazyVim comes with [which-key.nvim](https://github.com/folke/which-key.nvim) built-in, making it much easier to explore and remember possible keymaps. Just press any key like ```Space``` on LazyVim and you'll see a popup with all possible keymaps starting with <space>.
 
 To use kami in its full power, it is rather crucial to be familiar with LazyVim, which can be learnt from the resources listed on the [LazyVim website](https://www.lazyvim.org/#-learn).
 
@@ -58,7 +58,7 @@ To display icons, configure your terminal to use a nerd font. The script install
 
 ## Usage
 
-To start kami, launch [Neovide](https://neovide.dev) the same way you'd launch any other application, or execute on terminal
+To start kami, launch [Neovide](https://neovide.dev) the way you'd launch any other application, or execute on terminal
 ```bash
 nvim
 ```
