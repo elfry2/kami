@@ -8,13 +8,12 @@ The above image shows kami running on [daru](https://github.com/elfry2/daru).
 ## Features
 All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 1. ```l``` ```k``` ```j``` is mapped as another way to escape Insert Mode and Terminal Mode so all fingers can stay home more often and have quality time together
-2. [super-tab](https://cmp.saghen.dev/configuration/keymap.html#super-tab) mapping is used for [blink.cmp](https://github.com/saghen/blink.cmp) to keep the user from losing his mind
-4. ```;``` ```t``` is mapped as a shortcut to open a new window with a terminal buffer
-5. ```;``` ```c``` is mapped as a shortcut to close the current buffer
-6. ```F11``` is mapped as the fullscreen toggle on Neovide
-7. ```Ctrl```+```-``` and ```Ctrl```+```=``` is mapped as shortcuts to change font size and scaling on Neovide
-8. ```:NoBackground``` command is added to make it easier to turn off the background colour (useful on terminals that support translucent background)
-9. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late-night sessions
+2. ```;``` ```t``` is mapped as a shortcut to open a new window with a terminal buffer
+3. ```;``` ```c``` is mapped as a shortcut to close the current buffer
+4. ```F11``` is mapped as the fullscreen toggle on Neovide
+5. ```Ctrl```+```-``` and ```Ctrl```+```=``` is mapped as shortcuts to change font size and scaling on Neovide
+6. ```:NoBackground``` command is added to make it easier to turn off the background colour (useful on terminals that support translucent background)
+7. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late-night sessions
 
 ## Installation
 Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Make sure to not skip reading the output; there isn't much error-handling, if any, and you wouldn't want to think the script ran successfully when it didn't. Don't skip reading this README.md to the end either.
