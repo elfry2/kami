@@ -20,7 +20,7 @@ scoop bucket add extras
 scoop bucket add nerd-fonts
 
 # Install the required Scoop packages.
-scoop install git mingw fzf neovim neovide Cascadia-Code extras/windows-terminal
+scoop install git mingw fzf fd neovim neovide Cascadia-Code extras/windows-terminal
 
 # Install LazyVim.
 Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim-backup-$([int](Get-Date -UFormat %s -Millisecond 0))
