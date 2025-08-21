@@ -14,6 +14,7 @@ All of the greatness of [LazyVim](https://www.lazyvim.org/), but
 5. ```Ctrl```+```-``` and ```Ctrl```+```=``` is mapped as shortcuts to change font size and scaling on Neovide
 6. ```:NoBackground``` command is added to make it easier to turn off the background colour (useful on terminals that support translucent background)
 7. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late-night sessions
+8. [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) is included to support Blade files
 
 ## Installation
 Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Make sure to not skip reading the output; there isn't much error-handling, if any, and you wouldn't want to think the script ran successfully when it didn't. Don't skip reading this README.md to the end either.
