@@ -54,7 +54,7 @@ To use kami in its full power, it is rather crucial to be familiar with LazyVim,
 
 On first run, you'd be staring at [lazy.nvim](https://lazy.folke.io/) doing its best setting up your environment. It is common here, especially on slower connections, to see some red scary git errors, but most of the time they can be solved simply by waiting for the process to finish and then hitting ```S``` (```<Shift>``` ```s```). The logs at the bottom might also require you to press ```<Space>``` sometimes. When everything is ready, run ```:LazyHealth``` on the Neovim command line to make sure everything is working correctly. Once finished, mash ```q``` until Neovim quits.
 
-To display icons, configure your terminal to use a nerd font. The script installs Cascadia Code NF.
+To display icons, configure your terminal to use a nerd font. The script installs CaskaydiaCove Nerd Font.
 
 ## Usage
 
