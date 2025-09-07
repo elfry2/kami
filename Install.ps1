@@ -20,7 +20,7 @@ scoop bucket add extras
 scoop bucket add nerd-fonts
 
 # Install the required Scoop packages.
-scoop install git mingw fzf fd neovim neovide Cascadia-Code extras/windows-terminal
+scoop install mingw fzf fd neovim neovide CascadiaCode-NF extras/windows-terminal
 
 # Install LazyVim.
 Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim-backup-$([int](Get-Date -UFormat %s -Millisecond 0))
@@ -34,4 +34,4 @@ git config --global --add safe.directory $env:LOCALAPPDATA\nvim-data\*
 # Install kami.
 Copy-Item -Recurse -Force -Path config\nvim -Destination $env:LOCALAPPDATA
 
-echo "Script finished. Make sure to read the output. To display icons, configure your terminal to use a nerd font. The script installed CaskaydiaCove Nerd Font Mono. After LazyVim finishes installing, it is recommended to run :LazyHealth after installation."
+echo "Script finished. Make sure to read the output. To display icons, configure your terminal to use a nerd font; the script installed Cascadia Code NF. After LazyVim finishes installing, it is recommended to run ```:LazyHealth``` after installation."
