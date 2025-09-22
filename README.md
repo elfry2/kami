@@ -63,5 +63,7 @@ To start kami, launch [Neovide](https://neovide.dev) the way you'd launch any ot
 nvim
 ```
 
+If nothing happens, you might need to install Microsoft Visual C++ Redistributable. There is a ```vcredist-aio``` package on Scoop's ```extras``` bucket which requires administrator rights to install.
+
 ## Customisation
 Consult the [lazy.nvim documentation](https://lazy.folke.io) and the [LazyVim documentation](https://www.lazyvim.org).
