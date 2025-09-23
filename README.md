@@ -43,12 +43,10 @@ cd kami
 .\Install.ps1
 ```
 
-The installation script for Windows also installs [Windows Terminal](https://apps.microsoft.com/detail/9n0dx20hk701) via [Scoop](https://scoop.sh/). If you find this bloated, you'd know which to remove once you read the script.
-
 There isn't yet an installer for other systems, but the steps are easy to reproduce.
 
 ## Things to know before using
-Unlike plain Neovim, LazyVim comes with [which-key.nvim](https://github.com/folke/which-key.nvim) built-in, making it much easier to explore and remember possible keymaps. Just press any key like ```Space``` on LazyVim and you'll see a popup with all possible keymaps starting with <space>.
+Unlike plain Neovim, LazyVim comes with [which-key.nvim](https://github.com/folke/which-key.nvim) built-in, making it much easier to explore and remember possible keymaps. Just press any key like ```Space``` on LazyVim and you'll see a popup with all possible keymaps in the current context.
 
 To use kami in its full power, it is rather crucial to be familiar with LazyVim, which can be learnt from the resources listed on the [LazyVim website](https://www.lazyvim.org/#-learn).
 

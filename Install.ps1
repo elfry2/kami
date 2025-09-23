@@ -20,9 +20,10 @@ scoop bucket add extras
 scoop bucket add nerd-fonts
 
 # Install the required Scoop packages.
-scoop install mingw fzf fd neovim neovide CascadiaCode-NF extras/windows-terminal
+scoop install mingw fzf fd ripgrep ast-grep lazygit unzip wget gzip neovim neovide CascadiaCode-NF
 
 # Install LazyVim.
+echo "Backing up existing configuration directories. If any of the directories does not exist, error messages are to be expected. This is normal."
 Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim-backup-$([int](Get-Date -UFormat %s -Millisecond 0))
 Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data-backup-$([int](Get-Date -UFormat %s -Millisecond 0))
 git clone https://github.com/LazyVim/starter $env:LOCALAPPDATA\nvim
