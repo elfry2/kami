@@ -23,6 +23,7 @@ scoop install git
 git clone https://github.com/elfry2/kami
 cd kami
 .\Install.ps1
+```
 
 Then follow the installation wizard.
 
@@ -49,7 +50,6 @@ On [PowerShell 7+ on Windows](https://learn.microsoft.com/en-us/powershell/scrip
 ```powershell
 .\Uninstall.ps1
 ```
-The script cannot uninstall Neovim and CascadiaCode-NF; they have to be uninstalled manually.
 
 ## Customisation
 Consult the [lazy.nvim documentation](https://lazy.folke.io) and the [LunarVim documentation](https://www.lunarvim.org/docs/configuration).
