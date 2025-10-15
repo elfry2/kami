@@ -19,3 +19,6 @@ reg import "C:\Users\Elfry\scoop\apps\neovide\current\install-context.reg"
 
 # Install LunarVim.
 pwsh -c "`$LV_BRANCH='release-1.4/neovim-0.9'; iwr https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.4/neovim-0.9/utils/installer/install.ps1 -UseBasicParsing | iex"
+
+# Refresh the environment variables.
+.\RefreshEnv.ps1
