@@ -23,6 +23,9 @@ scoop install git
 git clone https://github.com/elfry2/kami
 cd kami
 .\Install.ps1
+
+# Reload profile.
+. $PROFILE
 ```
 
 Then follow the installation wizard.
