@@ -3,8 +3,7 @@ The perfect text editor–not. It's a script to install the [Neovim](https://neo
 
 ## Features
 All of the greatness of [LunarVim](https://www.lunarvim.org/), but
-1. [kanagawa-dragon](https://github.com/rebelot/kanagawa.nvim) is set as the colorscheme for more comfortable late-night sessions
-2. Relative line numbers are used
+1. 
 
 ## Installation
 Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Make sure to not skip reading the output; there isn't much error-handling, if any, and you wouldn't want to think the script ran successfully when it didn't. Don't skip reading this README.md to the end either.
