@@ -3,3 +3,5 @@ scoop uninstall make python nodejs cargo-binstall ripgrep lazygit CascadiaCode-N
 
 # Uninstall LunarVim.
 Invoke-WebRequest https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/uninstall.ps1 -UseBasicParsing | Invoke-Expression
+
+echo "kami uninstalled. Neovim and CascadiaCode-NF have to be uninstalled manually."
