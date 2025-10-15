@@ -12,7 +12,7 @@ scoop bucket add extras
 scoop bucket add nerd-fonts
 
 # Install the required Scoop packages.
-scoop install make python nodejs cargo-binstall ripgrep lazygit neovim neovide lunarvim CascadiaCode-NF
+scoop install make python nodejs cargo-binstall ripgrep lazygit CascadiaCode-NF
 
 # Install LunarVim.
-lvim_install
+pwsh -c "`$LV_BRANCH='release-1.4/neovim-0.9'; iwr https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.4/neovim-0.9/utils/installer/install.ps1 -UseBasicParsing | iex"
