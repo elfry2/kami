@@ -12,9 +12,9 @@ scoop bucket add extras
 scoop bucket add nerd-fonts
 
 # Install the required Scoop packages.
-scoop install make python nodejs cargo-binstall ripgrep lazygit CascadiaCode-NF neovim neovide
+scoop install make python nodejs cargo-binstall ripgrep lazygit CascadiaCode-NF neovide
 
-# Add Open with Neovide as a context menu option
+# Add Open with Neovide as a context menu option.
 reg import "C:\Users\Elfry\scoop\apps\neovide\current\install-context.reg" 
 
 # Install LunarVim.

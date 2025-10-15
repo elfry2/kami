@@ -3,7 +3,7 @@ The perfect text editor–not. It's a script to install the [Neovim](https://neo
 
 ## Features
 All of the greatness of [LunarVim](https://www.lunarvim.org/), but
-1. 
+1. Nothing.
 
 ## Installation
 Do not run the script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Make sure to not skip reading the output; there isn't much error-handling, if any, and you wouldn't want to think the script ran successfully when it didn't. Don't skip reading this README.md to the end either.
@@ -23,6 +23,9 @@ scoop install git
 git clone https://github.com/elfry2/kami
 cd kami
 .\Install.ps1
+
+# Refresh the environment variables.
+. $PROFILE
 ```
 
 Then follow the installation wizard.
@@ -44,6 +47,13 @@ To start kami, navigate to the directory of your project, then execute
 ```bash
 lvim
 ```
+
+## Uninstallation
+On [PowerShell 7+ on Windows](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5), execute
+```powershell
+.\Uninstall.ps1
+```
+
 
 ## Customisation
 Consult the [lazy.nvim documentation](https://lazy.folke.io) and the [LunarVim documentation](https://www.lunarvim.org/docs/configuration).
