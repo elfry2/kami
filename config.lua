@@ -107,5 +107,6 @@ lvim.plugins = {
 
 -- BEGIN kami configuration
 lvim.colorscheme = "kanagawa-dragon"
+vim.opt.relativenumber = true
 -- END kami configuration
 
