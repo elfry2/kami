@@ -39,7 +39,7 @@ The LunarVim website lists [PowerShell 7+](https://learn.microsoft.com/en-us/pow
 
 To display icons, configure your terminal to use a nerd font. The installation script installs CaskaydiaCove Nerd Font.
 
-On first run, you'd be staring at lazy.nvim doing its best setting up your environment. It is common here, especially on slower connections, to see some red scary git errors, but most of the time they can be solved simply by waiting for the process to finish and then hitting S (<Shift> s). The logs at the bottom might also require you to press <Space> sometimes. When everything is ready, type `:qa!` to quit Neovim.
+On first run, you'd be staring at lazy.nvim doing its best setting up your environment. It is common here, especially on slower connections, to see some red scary git errors, but most of the time they can be solved simply by waiting for the process to finish and then hitting S (<Shift> s). The logs at the bottom might also require you to press <Space> sometimes. When everything is ready, type `:qa` to quit Neovim.
 
 ## Usage
 
