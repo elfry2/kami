@@ -88,6 +88,9 @@ lvim.plugins = {
     end
   },
   {
+    "rakr/vim-one",
+  },
+  {
     "folke/noice.nvim",
     event = "VeryLazy",
     opts = {
@@ -104,7 +107,9 @@ lvim.plugins = {
   },
 }
 
-lvim.colorscheme = "kanagawa-dragon"
+-- lvim.colorscheme = "kanagawa-dragon"
+lvim.colorscheme = "one"
+vim.opt.background="light"
 
 -- Mark column 80.
 vim.cmd("set colorcolumn=80")
