@@ -107,9 +107,9 @@ lvim.plugins = {
   },
 }
 
--- lvim.colorscheme = "kanagawa-dragon"
-lvim.colorscheme = "one"
-vim.opt.background="light"
+lvim.colorscheme = "kanagawa-dragon"
+-- lvim.colorscheme = "one"
+-- vim.opt.background="light"
 
 -- Mark column 80.
 vim.cmd("set colorcolumn=80")
