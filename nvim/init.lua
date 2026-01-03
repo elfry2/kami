@@ -15,6 +15,8 @@ end
 -- Set up 'mini.deps' (customize to your liking)
 require('mini.deps').setup({ path = { package = path_package } })
 
+MiniDeps.add({ name = 'mini.nvim', checkout = 'stable' })
+
 -- Get the operating system name.
 -- Source: https://gist.github.com/Zbizu/43df621b3cd0dc460a76f7fe5aa87f30.
 function get_os()
