@@ -23,13 +23,16 @@ scoop install git
 git clone https://github.com/elfry2/kami
 cd kami
 .\Install.ps1
+```
 
 There isn't yet an installer for other systems, but the steps are easy to reproduce.
 
 ## Usage
-To start kami, navigate to the directory of your project, then execute
+Before using kami, it is crucial to be familiar with Neovim. There are many decent resources all over the internet, such as [https://github.com/ofirgall/learn-nvim](https://github.com/ofirgall/learn-nvim).
+
+To start kami, navigate to the folder of your project, then execute
 ```bash
 lvim
 ```
 ## Customisation
-Scripts can be placed in `lua\scripts` in the config directory (`C:\Users\<User>\AppData\Local\nvim` by default) for them to be auto-loaded alphabetically.
+Scripts can be placed in `lua\scripts` in the config folder (`C:\Users\<User>\AppData\Local\nvim` by default) for them to be auto-loaded alphabetically.
