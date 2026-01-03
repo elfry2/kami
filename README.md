@@ -34,5 +34,6 @@ To start kami, navigate to the folder of your project, then execute
 ```bash
 lvim
 ```
+
 ## Customisation
 Scripts can be placed in `lua\scripts` in the config folder (`C:\Users\<User>\AppData\Local\nvim` by default) for them to be auto-loaded alphabetically.
