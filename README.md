@@ -32,7 +32,7 @@ Before using kami, it is crucial to be familiar with Neovim. There are many dece
 
 To start kami, navigate to the folder of your project, then execute
 ```bash
-lvim
+nvim .
 ```
 
 ## Customisation
