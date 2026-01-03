@@ -3,7 +3,7 @@ The perfect text editor–not. It's a script to install the [Neovim](https://neo
 
 ## Features
 1. The stable branch of [nvim-mini/mini.deps](https://github.com/nvim-mini/mini.deps) as the plugin manager for a minimal and no-headache experience
-2. Modular and auto-loaded scripting
+2. Modular and auto-loaded scripting; just drop the files in the `scripts` folder
 3. ...
 
 ## Installation
