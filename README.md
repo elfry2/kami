@@ -2,7 +2,7 @@
 The perfect text editor–not. It's a script to install the [Neovim](https://neovim.io/) configuration I use mainly for web development.
 
 ## Features
-1. [nvim-mini/mini.deps](https://github.com/nvim-mini/mini.deps) as the package manager for a minimal and stable experience
+1. The stable branch of [nvim-mini/mini.deps](https://github.com/nvim-mini/mini.deps) as the plugin manager for a minimal and no-headache experience
 2. ...
 
 ## Installation
