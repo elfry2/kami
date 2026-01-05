@@ -7,6 +7,7 @@ local mappings = {
         -- Format: {lhs, rhs, opts_or_desc}
         -- The `desc` field is useful for plugins like which-key
         { "tr", ":Neotree<CR>", { desc = "Open Neo-tree" } },
+        { "nb", ":highlight Normal guibg=NONE | highlight NonText guibg=NONE | highlight SignColumn guibg=NONE<CR>", { desc = "Disable background" } },
     },
 
     -- Insert mode mappings

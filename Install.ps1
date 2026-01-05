@@ -15,11 +15,15 @@ scoop bucket add extras
 scoop bucket add nerd-fonts
 
 # Install the required Scoop packages.
-scoop install CascadiaCode-NF extras/vcredist2022 neovim neovide
+scoop install CascadiaCode-NF extras/vcredist2022 neovim neovide nodejs-lts
+
+# Install the required npm packages.
+npm install -g blade-formatter
 
 # Add Open with Neovide to context menu.
 reg import "C:\Users\Elfry\scoop\apps\neovide\current\install-context.reg"
 
 # Install kami.
+Remove-Item -Recurse -Verbose -Force ~/AppData/Local/nvim/lua/scripts
 Copy-Item -Recurse -Verbose -Force nvim ~/AppData/Local/
 Write-Output "kami installed."

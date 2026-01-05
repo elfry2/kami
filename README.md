@@ -2,9 +2,11 @@
 The perfect text editor–not. It's a script to install the [Neovim](https://neovim.io/) configuration I use mainly for web development.
 
 ## Features
-1. The stable branch of [nvim-mini/mini.deps](https://github.com/nvim-mini/mini.deps) as the plugin manager for a minimal and no-headache experience
-2. Modular and auto-loaded scripting; just drop the files in the `scripts` folder
-3. ...
+1. As minimal as affordable
+2. The stable branch of [nvim-mini/mini.deps](https://github.com/nvim-mini/mini.deps) as the plugin manager for a minimal and no-headache experience
+3. Modular and auto-loaded scripting; just drop the files in the `scripts` folder
+4. All of the scripts in [nvim/lua/scripts](tree/mini-deps-base/nvim/lua/scripts)
+5. ...
 
 ## Installation
 Do not run the installation script (or any script) unless you understand what it does and you are sure that it does only what you want it to do. Make sure to not skip reading the output; there isn't much error-handling, if any, and you wouldn't want to think the script ran successfully when it didn't. Don't skip reading this README.md to the end either.
@@ -33,7 +35,8 @@ Before using kami, it is crucial to be familiar with Neovim. There are many dece
 
 On the first time running kami after installation (or later), in the command-line mode, before anything else, be sure to execute
 ```vimscript
-DepsUpdateOffline mini.nvim
+:DepsUpdateOffline mini.nvim
+:TSInstall
 ```
 
 To start kami, navigate to the folder of your project, then execute

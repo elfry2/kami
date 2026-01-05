@@ -64,7 +64,7 @@ local scripts_path = config_path .. [[\lua\scripts]]
 local scripts = scandir(scripts_path)
 
 for _, script in ipairs(scripts) do
-	local script_without_the_extension = script:gsub('.lua', '')
+	local script_without_the_extension = script:gsub('%.lua', '')
 
 	-- Has to be in the lua directory to work.
 	-- Source: https://neovim.io/doc/user/lua-guide.html
