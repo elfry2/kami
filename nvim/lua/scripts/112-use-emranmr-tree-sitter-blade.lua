@@ -5,7 +5,7 @@
 
 vim.api.nvim_create_autocmd('User', { pattern = 'TSUpdate',
 callback = function()
-  require('nvim-treesitter.parsers').zimbu = {
+  require('nvim-treesitter.parsers').blade = {
     install_info = {
       url = 'https://github.com/EmranMR/tree-sitter-blade',
       -- revision = <sha>, -- commit hash for revision to check out; HEAD if missing
