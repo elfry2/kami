@@ -1,4 +1,4 @@
-Write-Output  "This script overwrites your current Neovim configuration. You might want to backup before proceeding. To terminate the script, press Ctrl+C. To proceed, press any other key..."
+Write-Output  "This script overwrites your current Neovim configuration. You might want to backup before proceeding. To terminate the script, press Ctrl+C. To proceed, press Enter."
 Read-Host | Out-Null
 
 # Install and upgrade Scoop.
@@ -15,7 +15,7 @@ scoop bucket add extras
 scoop bucket add nerd-fonts
 
 # Install the required Scoop packages.
-scoop install CascadiaCode-NF extras/vcredist2022 neovim neovide nodejs-lts
+scoop install CascadiaCode-NF extras/vcredist2022 neovim neovide nodejs-lts tar curl mingw
 
 # Install the required npm packages.
 npm install -g blade-formatter
