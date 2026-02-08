@@ -30,14 +30,14 @@ cd kami
 
 There isn't yet an installer for other systems, but the steps are easy to reproduce.
 
-## Usage
-Before using kami, it is crucial to be familiar with Neovim. There are many decent resources all over the internet, such as [https://github.com/ofirgall/learn-nvim](https://github.com/ofirgall/learn-nvim).
-
-On the first time running kami after installation (or later), in the command-line mode, before anything else, be sure to execute
+This might be confusing if you're reading this for the first time, but just keep it in mind for now: on the first time running kami after the installation script successfully completed (or later), in the command-line mode, before anything else, make sure to execute
 ```vimscript
 :DepsUpdateOffline mini.nvim
 :TSInstall
 ```
+
+## Usage
+Before using kami, it is crucial to be familiar with Neovim. There are many decent resources all over the internet, you need only pick one, and a tutorial is built-in. Keep in mind that you can type `:help nvim` and then press `Enter` in kami to start learning.
 
 To start kami, navigate to the folder of your project, then execute
 ```bash

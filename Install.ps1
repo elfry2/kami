@@ -18,7 +18,7 @@ scoop bucket add nerd-fonts
 scoop install CascadiaCode-NF extras/vcredist2022 neovim neovide nodejs-lts tar curl mingw
 
 # Install the required npm packages.
-npm install -g blade-formatter
+npm install -g tree-sitter-cli blade-formatter
 
 # Add Open with Neovide to context menu.
 reg import "C:\Users\Elfry\scoop\apps\neovide\current\install-context.reg"
@@ -26,4 +26,4 @@ reg import "C:\Users\Elfry\scoop\apps\neovide\current\install-context.reg"
 # Install kami.
 Remove-Item -Recurse -Verbose -Force ~/AppData/Local/nvim/lua/scripts
 Copy-Item -Recurse -Verbose -Force nvim ~/AppData/Local/
-Write-Output "kami installed."
+Write-Output "Script finished. Make sure to read the output."
