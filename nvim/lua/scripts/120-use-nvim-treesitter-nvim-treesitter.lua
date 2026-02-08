@@ -4,19 +4,24 @@
 -- - https://github.com/nvim-treesitter/nvim-treesitter/tree/master
 
 MiniDeps.add({
-	-- A list of parser names, or "all" (the listed parsers MUST always be installed)
-	ensure_installed = {
-		"all",
-		-- "c",
-		-- "lua",
-		-- "vim",
-		-- "vimdoc",
-		-- "query",
-		-- "markdown",
-		-- "markdown_inline",
-		-- "php",
-		-- "html",
-		-- "blade",
+  source = 'nvim-treesitter/nvim-treesitter',
+  -- Use 'master' while monitoring updates in 'main'
+  checkout = 'master',
+  monitor = 'main',
+  -- Perform action after every checkout
+  hooks = { post_checkout = function() vim.cmd('TSUpdate') end },
+})
+
+-- Possible to immediately execute code which depends on the added plugin
+require('nvim-treesitter.configs').setup({	-- A list of parser names, or "all" (the listed parsers MUST always be installed)
+	ensure_installed =
+	-- "all",
+	{
+	  "html",
+	  "css",
+	  "javascript",
+	  "php",
+	  "blade",
 	},
 
 	-- Install parsers synchronously (only applied to `ensure_installed`)
